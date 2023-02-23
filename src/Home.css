@@ -21,6 +21,7 @@ section {
 
 .span-2 {
   font-size: 3.2rem;
+  color: #DE6449;
 }
 
 .links {
@@ -28,4 +29,8 @@ display: flex;
     justify-content: left;
     align-items: center;
     margin: 10px;
+}
+
+.links a:hover {
+  background-color: #DE6449;
 }

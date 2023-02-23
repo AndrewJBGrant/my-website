@@ -14,9 +14,4 @@ export const links = [
     text: 'projects',
     url: '#projects',
   },
-  {
-    id: 4,
-    text: 'contact??',
-    url: '#contact',
-  },
 ]

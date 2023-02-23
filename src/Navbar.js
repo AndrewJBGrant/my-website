@@ -14,7 +14,9 @@ const Navbar = () => {
   return (
     <nav className='navbar sticky'>
       <div className='nav-center'>
+              <h4>AndrewJBGrant</h4>
         <div>
+
           {links.map((link) => {
             return (
               <a href={link.url} key={link.id} onClick={handleClick}>
