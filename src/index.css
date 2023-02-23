@@ -12,6 +12,10 @@ code {
     monospace;
 } */
 
+* {
+  box-sizing: border-box
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400');
 *,
 ::after,
@@ -165,17 +169,14 @@ a {
 }
 
 .navbar {
-  background: var(--white);
+  background: #FBFBFF;
   height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 1rem;
 }
-.navbar img {
-  width: clamp(125px, 30vw, 200px);
-  margin-bottom: -2px;
-}
+
 .nav-center {
   width: 100%;
   max-width: var(--max-width);
@@ -184,40 +185,37 @@ a {
   justify-content: space-between;
 }
 .nav-center a {
-  font-size: clamp(0.25rem, 3vw, 0.75rem);
-  color: var(--grey-1100);
+  font-size: clamp(0.75rem, 5vw, 0.85rem);
+  color: #171614;
   transition: var(--transition);
   text-transform: uppercase;
 }
 .nav-center a:hover {
-  color: var(--primary-500);
-}
-.nav-center a:not(:last-of-type) {
-  margin-right: 0.25rem;
+  color:  #FF8569;
 }
 
 .home,
 .about,
 .projects,
-.contact,
-.rest {
+.contact {
   min-height: 100vh;
   text-align: left;
 }
 
 .home {
-  background: #bee5bf;
+  background: #FBFBFF;
+  color: #171614;
 }
 .about {
-  background: #dff3e3;
+  background: #E9E9FF;
 }
 .projects {
-  background: #ffd1ba;
+  background: #F0F0FF;
 }
-.contact {
+/* .contact {
   background: #ce7da5;
   min-height: 50vh
-}
+} */
 
 .sticky {
   position: sticky;

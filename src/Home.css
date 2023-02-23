@@ -1,0 +1,31 @@
+.avatar {
+ width: 300px;
+ margin: 80px;
+ border-radius: 6px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.main {
+  margin-top: 100px;
+
+}
+
+.span-1 {
+  font-size: 2rem;
+}
+
+.span-2 {
+  font-size: 3.2rem;
+}
+
+.links {
+display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+}

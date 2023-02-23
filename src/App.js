@@ -1,5 +1,8 @@
 import Navbar from "./Navbar";
+import Home from "./Home";
+import About from "./About";
 import "./App.css";
+import Projects from "./Projects";
 
 function App() {
 
@@ -8,19 +11,12 @@ function App() {
     <div className="App">
        <main id='home'>
       <Navbar />
-      <section className='home'>
-        <h1>home!!
-           my name is Andrew Grant</h1>
-      </section>
-      <section className='about' id='about'>
-        <h1>about me skills and background</h1>
-      </section>
-      <section className='projects' id='projects'>
-        <h1>projects some projects</h1>
-      </section>
-      <section className='contact' id='contact'>
+      <Home />
+      <About />
+      <Projects />
+      {/* <section className='contact' id='contact'>
         <h1>contact</h1>
-      </section>
+      </section> */}
     </main>
 
     </div>
