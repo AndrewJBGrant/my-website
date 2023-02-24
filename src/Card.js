@@ -4,16 +4,15 @@ import "./Card.css";
 function Card({ title, imageUrl, body }) {
   return (
     <div className="card-container">
-      <div className="card-left">
-        <div className="image-container">
-          <img src={imageUrl} alt="" />
-          <div className="btn">
-            <button>Github</button>
-          </div>
-          <div className="btn">
-            <button>Website</button>
-          </div>
-        </div>
+
+
+      <div className="image-container">
+        <img src={imageUrl} alt="" />
+
+        {/* <div className="btn">
+              <button>Github</button>
+              <button>Website</button>
+            </div> */}
       </div>
 
       <div className="card-right">

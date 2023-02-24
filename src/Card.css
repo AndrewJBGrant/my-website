@@ -1,52 +1,58 @@
+/* Whole Card */
 .card-container {
-  width: 800px;
-  overflow: hidden;
+  width: 80%;
   border-radius: 6px;
-  box-shadow: 0px 0px 15px 0px ;
+  /* box-shadow: 0px 0px 12px 0px; */
   display: flex;
-
-}
- .card-left {
-
- }
-
-
-.image-conatiner img{
-overflow: hidden;
-height: auto;
-
+  background-color: #fbfbff;
+  margin: 20px;
 }
 
+/* Left side of card */
 
-.card-right {
-  display: flex;
-  text-align: center;
-  padding: 10px;
+.image-container {
+  background-color: aqua;
+  width: 80vh;
+
 }
 
-
-/* h3,p{
-  margin: 0;
-  padding: 0;
-} */
-
-/* .card-title {
-  margin-bottom: 0.5rem;
-} */
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
 
 /* .btn {
   display: flex;
   justify-content: center;
+  border-radius: 6px;
+  justify-content: space-evenly;
 }
 
 .btn button {
   padding: 0.5rem;
-  background-color: coral;
+  background-color: #de6449;
+  color: antiquewhite;
   border: none;
   transition: 0.2s;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
 .btn button:hover {
-  background-color: crimson;
+  background-color: #ff6d4d;
 } */
+
+/* Right side of Card */
+.card-right {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-title {
+  padding: 10px;
+}
+
+.card-body {
+  text-align: left;
+}
