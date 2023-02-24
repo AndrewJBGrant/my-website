@@ -11,12 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-
-* {
-  box-sizing: border-box
-}
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400");
 *,
 ::after,
 ::before {
@@ -76,8 +71,8 @@ html {
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
   /* typography */
   --defaultFontSize: 87.5%;
-  --headingFont: 'Inconsolata', monospace;
-  --bodyFont: 'Montserrat', sans-serif;
+  --headingFont: "Inconsolata", monospace;
+  --bodyFont: "Montserrat", sans-serif;
   --smallText: 0.8em;
   --extraSmallText: 0.7em;
   /* rest */
@@ -120,15 +115,15 @@ h1,
 h2,
 h3,
 h4,
-/* h5 {
+h5 {
   margin: 0;
   margin-bottom: 1.38rem;
   font-family: var(--headingFont);
   font-weight: 400;
   line-height: 1.3;
   text-transform: capitalize;
-  letter-spacing: var(--letterSpacing);
-} */
+  /* letter-spacing: var(--letterSpacing); */
+}
 
 h1 {
   font-size: 3.052rem;
@@ -162,18 +157,13 @@ ul {
 a {
   text-decoration: none;
 }
-.img {
-  width: 100%;
-  display: block;
-  object-fit: cover;
-}
 
 .navbar {
-  background: #FBFBFF;
+  background: #fbfbff;
   height: 64px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0 1rem;
 }
 
@@ -185,42 +175,44 @@ a {
   justify-content: space-between;
 }
 .nav-center a {
+  margin-left: 10px;
   font-size: clamp(0.75rem, 5vw, 0.85rem);
   color: #171614;
   transition: var(--transition);
   text-transform: uppercase;
 }
 .nav-center a:hover {
-  color:  #FF8569;
+  color: #ff8569;
 }
 
 .home,
 .about,
-.projects,
-.contact {
+.projects {
   min-height: 100vh;
-  text-align: left;
 }
 
 .home {
-  background: #FBFBFF;
+  background: #fbfbff;
   color: #171614;
 }
 .about {
-  background: #E9E9FF;
+  background: #fde2b6;
 }
 .projects {
-  background: #F0F0FF;
+  background: #f0f0ff;
 }
-/* .contact {
-  background: #ce7da5;
-  min-height: 50vh
-} */
+
+.card-flex {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
 
 .sticky {
   position: sticky;
   top: 0;
 }
+
 @media screen and (min-width: 768px) {
   .nav-center a:not(:last-of-type) {
     margin-right: 0.5rem;

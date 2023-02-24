@@ -1,7 +1,8 @@
 .avatar {
- width: 300px;
- margin: 80px;
- border-radius: 6px;
+  max-width: 300px;
+  min-width: 300px;
+  margin: 80px;
+  border-radius: 6px;
 }
 
 section {
@@ -12,25 +13,30 @@ section {
 
 .main {
   margin-top: 100px;
-
 }
 
 .span-1 {
   font-size: 2rem;
+  letter-spacing: 1px;
 }
 
 .span-2 {
-  font-size: 3.2rem;
-  color: #DE6449;
+  font-size: 3.3rem;
+  letter-spacing: 5px;
+  color: #de6449;
 }
 
 .links {
-display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
 }
 
-.links a:hover {
-  background-color: #DE6449;
+.github {
+  margin-left: 24px;
+}
+
+.about-me {
+  font-size: 1.2rem;
 }
