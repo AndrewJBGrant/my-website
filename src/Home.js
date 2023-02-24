@@ -12,7 +12,7 @@ function Home() {
 
           <p className="about-me">
             I am a front-end developer based in Berlin <br/>
-            I like to make clean and functional
+            I like to make clean and functional code <br/> Always looking for oppurtunities to grow and test my skills
           </p>
           <div className="links">
             <a href="https://www.linkedin.com/in/andrewjbgrant/" target="blank">

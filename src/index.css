@@ -202,11 +202,10 @@ a {
   background: #f0f0ff;
 }
 
-.card-flex {
-  padding-top: 40px;
-  display: flex;
-  justify-content: space-around;
-}
+/* .card-flex {
+flex-direction: row;
+
+} */
 
 .sticky {
   position: sticky;
