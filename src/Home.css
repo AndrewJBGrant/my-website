@@ -26,17 +26,31 @@ section {
   color: #de6449;
 }
 
-.links {
+/* .links {
   display: flex;
-  justify-content: left;
   align-items: center;
-  margin: 10px;
+} */
+
+.links {
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  padding-top: 20px;
 }
 
-.github {
-  margin-left: 24px;
+.links a {
+  /* font-size: clamp(0.75rem, 5vw, 0.85rem); */
+  color: #171614;
+  transition: var(--transition);
+
+}
+
+
+.links a:hover {
+  color: #ff8569;
 }
 
 .about-me {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }

@@ -87,7 +87,7 @@ html {
 html {
   font-size: var(--defaultFontSize);
 }
-@media only screen and (min-width: 576px) {
+/* @media only screen and (min-width: 481px) {
   :root {
     --defaultFontSize: 100%;
   }
@@ -96,7 +96,17 @@ html {
   :root {
     --defaultFontSize: 112.5%;
   }
+} */
+
+
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+  * {
+    background-color: #7b74ff;
+    background-image: radial-gradient(green);
+  }
+
 }
+
 
 body {
   background: var(--backgroundColor);
@@ -105,6 +115,8 @@ body {
   font-weight: 400;
   line-height: 1.75;
 }
+
+
 
 p {
   margin-bottom: 1rem;
@@ -176,7 +188,7 @@ a {
 }
 .nav-center a {
   margin-left: 10px;
-  font-size: clamp(0.75rem, 5vw, 0.85rem);
+  font-size: clamp(1.2rem, 5vw, 0.85rem);
   color: #171614;
   transition: var(--transition);
   text-transform: uppercase;

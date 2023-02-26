@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./Card";
 import "./Projects.css";
+import logo from './logo.png';
+
 
 function Projects() {
   return (
@@ -21,7 +23,7 @@ function Projects() {
 
         <Card
           title="Book-Buddy"
-          imageUrl="https://source.unsplash.com/Fm17vn1lmAQ"
+          imageUrl={logo}
           body="The main project from le wagon we built an app to swap or sell books
           he main project from le wagon we built an app to swap or sell books
           he main project from le wagon we built an app to swap or sell books

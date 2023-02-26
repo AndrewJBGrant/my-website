@@ -7,7 +7,7 @@ function Card({ title, imageUrl, body }) {
 
 
       <div className="image-container">
-        <img src={imageUrl} alt="" />
+        <img src={imageUrl} alt="why not??" />
 
         {/* <div className="btn">
               <button>Github</button>

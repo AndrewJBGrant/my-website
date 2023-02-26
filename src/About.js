@@ -12,9 +12,10 @@ function About() {
           </p>
         </div>
 
+
         <div className="skills">
           <h3>Skills</h3>
-          <p>What I love most about Web De </p>
+          <p>What I love most about Web developer </p>
           <p> Web Fundemantals HTML CSS
               JavaScript React Stimulus Ruby on Rails </p>
         </div>
