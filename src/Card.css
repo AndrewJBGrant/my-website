@@ -15,6 +15,7 @@
   width: 50vh;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+  object-fit: fill;
 
 }
 
@@ -22,7 +23,7 @@
   width: 100%;
   max-width: 400px;
   height: auto;
-  object-fit: cover;
+  /* object-fit: fill; */
 }
 
 
@@ -56,8 +57,14 @@
 
 .card-title {
   padding: 10px;
+  text-align: center;
 }
 
 .card-body {
   text-align: left;
+
+}
+p {
+  font-size: 1.2rem;
+  white-space: pre-wrap;
 }

@@ -9,7 +9,14 @@ function About() {
           <h1>Background</h1>
           <div className="paragragh">
             <p>
-Having spent over ten years working as a chef I take from my time  Problem solving skills, focus and a need
+Having spent over ten years working as a chef,
+I attended Le Wagon's 24 week intensive web Dev bootcamp and
+
+
+it was the Javascript
+
+I am now looking for A Junior role
+I take from my time  Problem solving skills, focus and a need
 
 
 
@@ -27,7 +34,8 @@ Having spent over ten years working as a chef I take from my time  Problem solvi
 
         <div className="skills">
           <h3>Skills</h3>
-          <p>What I love most about Web </p>
+          <p>What I love most about Web
+            Since graduating from le wagon I have been learning React </p>
           <p> HTML CSS JavaScript React Stimulus Ruby on Rails </p>
 
 

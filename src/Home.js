@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.png";
+import logo from "./images/logo.png";
 // import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./Home.css";
 import CV from "./cv.pdf";
@@ -20,13 +20,13 @@ function Home() {
             <br/><br/>On the hunt for a Junior Front-end role
           </p>
           <div className="el-3-links">
-            <a href="https://github.com/AndrewJBGrant" target="blank">
+            <a href="https://www.linkedin.com/in/andrewjbgrant/" target="blank">
               <h3>
                 linkedIn
                 {/* <FaGithub color="#DE6449" fontSize="0.8em" />{" "} */}
               </h3>
             </a>
-            <a href="https://www.linkedin.com/in/andrewjbgrant/" target="blank">
+            <a href="https://github.com/AndrewJBGrant" target="blank">
               <h3>
                 Github
                 {/* <FaLinkedin color="#DE6449" fontSize="0.8em" /> */}
