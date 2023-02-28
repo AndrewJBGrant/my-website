@@ -116,13 +116,6 @@ body {
   line-height: 1.75;
 }
 
-
-
-p {
-  margin-bottom: 1rem;
-  max-width: 40em;
-}
-
 h1,
 h2,
 h3,
@@ -185,13 +178,15 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 .nav-center a {
-  margin-left: 10px;
+  margin-left: 50px;
   font-size: clamp(1.2rem, 5vw, 0.85rem);
   color: #171614;
   transition: var(--transition);
   text-transform: uppercase;
+
 }
 .nav-center a:hover {
   color: #ff8569;

@@ -6,14 +6,14 @@ function Card({ title, imageUrl, body }) {
     <div className="card-container">
 
 
-      <div className="image-container">
-        <img src={imageUrl} alt="why not??" />
+      {/* <div className="image-container"> */}
+        <img src={imageUrl} alt="why not??" className="image-container" width="600" height="400"/>
 
         {/* <div className="btn">
               <button>Github</button>
               <button>Website</button>
             </div> */}
-      </div>
+      {/* </div> */}
 
       <div className="card-right">
         <div className="card-content">

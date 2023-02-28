@@ -11,7 +11,7 @@ function Projects() {
       <div className="card-flex">
         <Card
           title="Sweet-Paw"
-          imageUrl="https://source.unsplash.com/Fm17vn1lmAQ"
+          imageUrl={logo}
           body="This was the first Le wagon Project we built in teams, an Airbnb 'clone'
           It is a website were you can rent out  sweet pets.
 
@@ -32,7 +32,7 @@ function Projects() {
         />
         <Card
           title="Weather-App"
-          imageUrl="https://source.unsplash.com/Fm17vn1lmAQ"
+          imageUrl={logo}
           body="A simple weather app built with React using Axios and the Open Weather Api"
         />
       </div>

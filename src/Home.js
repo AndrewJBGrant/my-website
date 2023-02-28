@@ -8,20 +8,18 @@ function Home() {
     <div className="home" id="home">
       <section>
         <div className="main">
-          <span className="span-1">Hello! My name is</span>
-          <span className="span-2"> Andrew</span>
-
-          <p className="about-me">
-            I am a front-end developer based in Berlin <br />
-            I like to make clean and functional code <br /> Always looking for
-            oppurtunities to grow and test my skills <br />
-            Looking for a Junior Front-end role
-            I like to make clean and functional code <br /> Always looking for
-            oppurtunities to grow and test my skills <br />
-            Looking for a Junior Front-end role
+          <div className="text-left">
+          <div className="el-1-header">
+            <span className="span-1">Hello! My name is</span>
+            <span className="span-2"> Andrew</span>
+          </div>
+          <p className="el-2-about-me">
+           I am a Front-end developer based in Berlin<br/>
+           I aim to make clean functional Web apps <br />with a focus on good UI/UX<br />
+           Always looking to learn new skils and test my knoweldge
+            <br/><br/>On the hunt for a Junior Front-end role
           </p>
-          <div className="links">
-            
+          <div className="el-3-links">
             <a href="https://github.com/AndrewJBGrant" target="blank">
               <h3>
                 linkedIn
@@ -39,8 +37,9 @@ function Home() {
               <h3>Download CV</h3>
             </a>
           </div>
+          </div>
+          <img className="el-4-avatar" src={logo} alt="Logo" />
         </div>
-        <img className="avatar" src={logo} alt="Logo" />
       </section>
     </div>
   );
