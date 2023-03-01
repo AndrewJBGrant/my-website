@@ -1,13 +1,16 @@
 import React from "react";
 import "./Card.css";
 
-function Card({ title, imageUrl, body }) {
+function Card({ title, imageUrl, body, video }) {
   return (
     <div className="card-container">
 
 
       {/* <div className="image-container"> */}
-        <img src={imageUrl} alt="why not??" className="image-container" width="600" height="400"/>
+        {/* <img src={imageUrl} alt="why not??" className="image-container" width="600" height="400"/> */}
+        <video src={video} width="300" height="400" controls>
+     </video>
+
 
         {/* <div className="btn">
               <button>Github</button>

@@ -4,6 +4,7 @@ import "./Projects.css";
 import logo from "./images/logo.png";
 import SweetPaw from "./images/Sweet-paw.png";
 import Book1 from "./images/bookbuddygood.jpg";
+import Video from "./images/video.mp4"
 // import Book2 from "./images/book-buddy2.jpg";
 
 function Projects() {
@@ -11,9 +12,10 @@ function Projects() {
     <div className="projects" id="projects">
       <h1> Here are some recent projects</h1>
       <div className="card-flex">
-        <a href="https://www.linkedin.com/in/andrewjbgrant/" target="blank">
+        {/*  href="https://www.linkedin.com/in/andrewjbgrant/" target="blank"> */}
           <Card
-            title="Sweet-Paw"
+          video={Video}
+            // title="Sweet-Paw"
             imageUrl={SweetPaw}
             body={`Three person group Project part of Le Wagon
 It is a website were you can rent out  sweet pets.
@@ -23,8 +25,8 @@ The website has user authentication, Geo-map location
 we took advantage of some of the Gems available for Rails
            `}
           />
-        </a>
-        <a href="https://the-book-buddy.herokuapp.com/" target="blank">
+
+        {/* href="https://the-book-buddy.herokuapp.com/" target="blank"> */}
           <Card
             title="Book-Buddy"
             imageUrl={Book1}
@@ -34,8 +36,8 @@ we took advantage of some of the Gems available for Rails
           he main project from le wagon we built an app to swap or sell books
           `}
           />
-        </a>
-        <a href="https://www.linkedin.com/in/andrewjbgrant/" target="blank">
+
+         {/* href="https://www.linkedin.com/in/andrewjbgrant/" target="blank"> */}
           <Card
             title="Weather-App"
             imageUrl={logo}
@@ -46,7 +48,6 @@ This App was a way to test what I have been learning in React such as useState a
 I wanted to learn more about Apis and here I made two different calls
 the first taking the City requested by the User, using that information to get the get a five day forecast`}
           />
-        </a>
       </div>
     </div>
   );
