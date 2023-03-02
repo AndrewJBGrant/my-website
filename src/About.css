@@ -1,5 +1,5 @@
 .about-flex {
-  display: block;
+  /* display: block; */
   padding-top: 40px;
   padding-left: 80px;
 }
@@ -8,14 +8,21 @@
   /* background-color: #FBFBFF; */
   border-radius: 6px;
   width: 60%;
-
 }
 
 p {
   font-size: 1.4rem;
 }
 
-.skills {
-margin-top: 100px;
+.skills-heading {
+  margin-top: 80px;
+}
 
+.skills {
+  margin-top: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 120px;
+  column-gap: 30px;
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "./images/logo.png";
-// import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./Home.css";
 import CV from "./cv.pdf";
 function Home() {
@@ -29,7 +28,6 @@ function Home() {
             <a href="https://github.com/AndrewJBGrant" target="blank">
               <h3>
                 Github
-                {/* <FaLinkedin color="#DE6449" fontSize="0.8em" /> */}
               </h3>
             </a>
 
