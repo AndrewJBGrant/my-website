@@ -10,7 +10,8 @@ import Video from "./images/video.mp4";
 function Projects() {
   return (
     <div className="projects" id="projects">
-      <h2> Here are some recent projects</h2>
+      <h2> Here are some recent projects I have worked on</h2>
+
       <div className="card-flex">
         {/*  href="https://www.linkedin.com/in/andrewjbgrant/" target="blank"> */}
         <Card
@@ -18,10 +19,14 @@ function Projects() {
           title="Sweet-Paw"
           // imageUrl={SweetPaw}
           body={`Three person group Project part of Le Wagon
-It is a website were you can rent out pets.
+It is a website were you can rent out pets
 
-Built with Ruby on Rails, SCSS and JavaScript
-Geo-map location
+Designed in Figma and deployed on Heroku
+Users can add their own pets as well as rent others
+Can search by map location and filter by speices
+
+Built with Ruby on Rails, SCSS  and JavaScript stimulus controllers
+Using Cloudinary for images and Active Record for data
            `}
         />
 
@@ -31,10 +36,14 @@ Geo-map location
           title="Book-Buddy"
           // imageUrl={Book1}
           body={`Three person group Project part of Le Wagon
-It is a website were you can rent out  sweet pets.
+It is a website were you can rent out pets
 
-Built with Ruby on Rails, Scss and JavaScript
-Cloudinary
+Designed in Figma and deployed on Heroku
+Users can add their own pets as well as rent others
+Can search by map location and filter by speices
+
+Ruby on Rails, SCSS JavaScript stimulus
+Cloudinary Active Record
            `}
         />
 
@@ -43,11 +52,19 @@ Cloudinary
           video={Video}
           title="Weather-App"
           // imageUrl={logo}
-          body={`A weather app built with React
-Using Axios and Open Weather API
+          body={`Three person group Project part of Le Wagon
+It is a website were you can rent out pets
+
+Designed in Figma and deployed on Heroku
+Users can add their own pets as well as rent others
+Can search by map location and filter by speices
+
+Built with Ruby on Rails, SCSS  and JavaScript stimulus controllers
+Using Cloudinary for images and Active Record for data
 `}
         />
       </div>
+      <h5>I am always building and working on different projects and ideas as I continue to grow as a developer</h5>
     </div>
   );
 }
