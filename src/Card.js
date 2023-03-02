@@ -1,22 +1,13 @@
 import React from "react";
 import "./Card.css";
 
-function Card({ title, imageUrl, body, video }) {
+function Card({ title, body, video }) {
   return (
     <div className="card-container">
-
-
-      {/* <div className="image-container"> */}
+      <div className="image-container">
         {/* <img src={imageUrl} alt="why not??" className="image-container" width="600" height="400"/> */}
-        <video src={video} width="300" height="400" controls>
-     </video>
-
-
-        {/* <div className="btn">
-              <button>Github</button>
-              <button>Website</button>
-            </div> */}
-      {/* </div> */}
+        <video src={video} width="350" height="300" controls></video>
+      </div>
 
       <div className="card-right">
         <div className="card-content">
@@ -27,6 +18,10 @@ function Card({ title, imageUrl, body, video }) {
           <div className="card-body">
             <p>{body} </p>
           </div>
+          {/* <div className="btn">
+            {/* <button>Github</button> */}
+            {/* <button>Website</button> */}
+          {/* </div> */}
         </div>
       </div>
     </div>

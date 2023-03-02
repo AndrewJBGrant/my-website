@@ -3,6 +3,7 @@
   width: 60%;
   border-radius: 6px;
   /* box-shadow: 0px 0px 12px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: flex;
   background-color: #fbfbff;
   margin: 20px;
@@ -11,31 +12,34 @@
 /* Left side of card */
 
 .image-container {
-  background-color: aqua;
-  width: 50vh;
+  background-color:#fbfbff;
+  width: 40%;
+  border-right: solid 1px var(--grey-900);
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
-  object-fit: fill;
+
+
+
 
 }
 
-.image-container img {
+video {
+
   width: 100%;
+  height: 100%;
   max-width: 400px;
-  height: auto;
-  /* object-fit: fill; */
 }
 
 
 
-/* .btn {
+/* /* .btn {
   display: flex;
   justify-content: center;
   border-radius: 6px;
   justify-content: space-evenly;
-}
+} */
 
-.btn button {
+/* .btn button {
   padding: 0.5rem;
   background-color: #de6449;
   color: antiquewhite;
@@ -62,6 +66,7 @@
 
 .card-body {
   text-align: left;
+  margin-left: 50px;
 
 }
 p {

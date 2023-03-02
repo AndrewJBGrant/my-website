@@ -169,17 +169,16 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 1rem;
+  padding:  1.5rem;
+
+
 }
 
 .nav-center {
   width: 100%;
   max-width: var(--max-width);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
 }
+
 .nav-center a {
   margin-left: 50px;
   font-size: clamp(1.2rem, 5vw, 0.85rem);
