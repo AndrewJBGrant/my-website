@@ -19,7 +19,7 @@ font-size: 1.3rem;
 }
 
 .skills {
-  margin-top: 50px;
+  margin-top: 40px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);

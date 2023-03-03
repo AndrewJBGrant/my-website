@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 
-function Card({ title, body, video, link, skills}) {
+function Card({ title, body, video, link, skills }) {
   return (
     <div className="card-container">
       <div className="image-container">
@@ -13,15 +13,22 @@ function Card({ title, body, video, link, skills}) {
         <div className="card-content">
           <div className="card-title">
             <h3>{title} </h3>
-            <h6><strong>{skills}</strong></h6>
+            <h6>
+              <strong>{skills}</strong>
+            </h6>
           </div>
 
           <div className="card-body">
             <p>{body} </p>
 
-           <button>website</button>
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4 className="website">Go To Website</h4>
+            </a>
           </div>
-
         </div>
       </div>
     </div>

@@ -2,8 +2,7 @@
 .card-container {
   width: 60%;
   border-radius: 6px;
-  /* box-shadow: 0px 0px 12px 0px; */
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px;
   display: flex;
   background-color: #fbfbff;
   margin: 20px;
@@ -14,7 +13,7 @@
 .image-container {
   background-color: #fbfbff;
   width: 40%;
-  border-right: solid 1px var(--grey-900);
+  /* border-right:thin 1px var(--grey-900); */
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }
@@ -23,25 +22,7 @@ video {
   width: 100%;
   height: 100%;
   max-width: 400px;
-}
-
-button {
-  display: flex;
-  justify-content: center;
-  border-radius: 6px;
-  justify-content: space-evenly;
-}
-
-button {
-  padding: 0.5rem;
-  background-color: #de6449;
-  color: antiquewhite;
-  border: none;
-  transition: 0.2s;
-  text-transform: uppercase;
-}
-button:hover {
-  background-color: #ff6d4d;
+  border-bottom-left-radius: 6px;
 }
 
 /* Right side of Card */
@@ -78,4 +59,20 @@ h6 {
   color: #de6449;
   font-size: large;
   margin-bottom: 20px;
+}
+
+.website {
+  color: #de6449;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.card-body h4 {
+  transition: var(--transition);
+}
+.card-body h4:hover {
+  color: #ff8569;
+  font-weight: 900;
+  opacity: 100%;
 }

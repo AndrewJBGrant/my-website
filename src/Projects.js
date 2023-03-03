@@ -17,21 +17,21 @@ function Projects() {
         <Card
           video={Video}
           title="Sweet-Paw"
-          skills={`Ruby on Rails SCSS Javascript`}
+          skills={`Ruby/Rails SCSS Javascript`}
           // imageUrl={SweetPaw}
           body={`Three person group Project part of Le Wagon
 It is a website were you can rent out pets
-Designed in Figma and deployed on Heroku
 
 Users can add their own pets as well as rent others
 Can search by map location and filter by speices
 
+Designed in Figma and deployed on Heroku
+`}
+link={"https://sweet-paw.herokuapp.com/"}
 
-           `}
         />
 
-        {/* href="https://the-book-buddy.herokuapp.com/" target="blank"> */}
-        {/* <h2>Book-Buddy</h2> */}
+
         <Card
           video={Video}
           // title="Book-Buddy"
@@ -45,6 +45,7 @@ Can add a copy of a book to trade
 
            `}
            skills={`Ruby on Rails  SCSS  Javascript`}
+           link={"https://www.book-buddy.me/"}
         />
 
         {/* href="https://www.linkedin.com/in/andrewjbgrant/" target="blank"> */}
