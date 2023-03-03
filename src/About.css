@@ -5,17 +5,17 @@
 }
 
 .paragragh {
-  /* background-color: #FBFBFF; */
-  border-radius: 6px;
-  width: 60%;
+/* background-color: #FBFBFF;; */
+  width: 70%;
+}
+.paragragh p {
+font-size: 1.3rem;
 }
 
-p {
-  font-size: 1.4rem;
-}
 
 .skills-heading {
-  margin-top: 80px;
+  margin-top: 60px;
+  font-weight: 900;
 }
 
 .skills {
@@ -23,6 +23,7 @@ p {
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 120px;
-  column-gap: 30px;
+  grid-template-rows: 110px;
+  column-gap: 10px;
+  padding-bottom: 50px;
 }

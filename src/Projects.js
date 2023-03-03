@@ -17,34 +17,34 @@ function Projects() {
         <Card
           video={Video}
           title="Sweet-Paw"
+          skills={`Ruby on Rails SCSS Javascript`}
           // imageUrl={SweetPaw}
           body={`Three person group Project part of Le Wagon
 It is a website were you can rent out pets
-
 Designed in Figma and deployed on Heroku
+
 Users can add their own pets as well as rent others
 Can search by map location and filter by speices
 
-Built with Ruby on Rails, SCSS  and JavaScript stimulus controllers
-Using Cloudinary for images and Active Record for data
+
            `}
         />
 
         {/* href="https://the-book-buddy.herokuapp.com/" target="blank"> */}
+        {/* <h2>Book-Buddy</h2> */}
         <Card
           video={Video}
-          title="Book-Buddy"
+          // title="Book-Buddy"
           // imageUrl={Book1}
-          body={`Three person group Project part of Le Wagon
-It is a website were you can rent out pets
+          body={`Final group Project part of Le Wagon
+It is a mobile app to trade books
 
-Designed in Figma and deployed on Heroku
-Users can add their own pets as well as rent others
-Can search by map location and filter by speices
+Deployed on Heroku
+Users can search books by author, catergory or title
+Can add a copy of a book to trade
 
-Ruby on Rails, SCSS JavaScript stimulus
-Cloudinary Active Record
            `}
+           skills={`Ruby on Rails  SCSS  Javascript`}
         />
 
         {/* href="https://www.linkedin.com/in/andrewjbgrant/" target="blank"> */}
@@ -64,7 +64,7 @@ Using Cloudinary for images and Active Record for data
 `}
         />
       </div>
-      <h5>I am always building and working on different projects and ideas as I continue to grow as a developer</h5>
+      {/* <h5>I am always building and working on different projects and ideas as I continue to grow as a developer</h5> */}
     </div>
   );
 }

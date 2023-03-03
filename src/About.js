@@ -12,12 +12,15 @@ function About() {
         <div className="background">
           <h1>Background</h1>
           <div className="paragragh">
-            <p>
-              Having spent over ten years working as a chef, I attended Le
-              Wagon's 24 week intensive web Dev bootcamp and it was the
-              Javascript I am now looking for A Junior role Since graduating
-              from le wagon I have been learning React I take from my time
-              Problem solving skills, focus and a need
+            <p>After working for over ten years as a Chef I felt the need for a change, I wanted a new path where I could continue to create, collaborate and to always be learning <br/>An environment where I could persistently be building new skills while sharping and refining old ones<br/><br/>
+I took an interest in coding, with its vast and always changing world, the inspiring open source community and endless learning opportunities.<br/><br/>
+
+I enrolled in Le Wagon's Web development bootcamp, Using Ruby we learnt the basics of programming before a dive into OOP, we then moved on to SQL and database structures then jumped into HTML , CSS and some JavaScript. We finished the course learning the Rails framework where we started to build bigger and more interactive apps before splitting into groups to complete two final projects
+
+<br/><br/>Since Graduating I have been learning React, working on different projects and sharperning my eye for good design.
+
+
+
               {/* My chef career presented me so many great opportunities in
               different environments with a diverse group of people, teaching me
               the importance of collaboration, good communication and the
@@ -51,7 +54,7 @@ function About() {
           <p>React</p>
           </div>
           <div>
-          <SiRubyonrails color="#DE6449" fontSize="4rem" />
+          <SiRubyonrails color="#DE6449" fontSize="4.2rem" />
           <p>Ruby on Rails</p>
           </div>
            <div>

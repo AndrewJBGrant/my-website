@@ -14,7 +14,7 @@ function Home() {
           </div>
           <p className="el-2-about-me">
            I am a Front-end developer based in Berlin<br/>
-           Who aims to make clean functional Web apps <br />with a focus on good UI/UX<br />
+           who aims to make clean functional Web apps <br/>with a focus on good UI/UX<br/><br/>
            Always looking to learn new skils and grow as a developer
             <br/><br/>On the hunt for a Junior Front-end role
           </p>

@@ -84,13 +84,13 @@ html {
 } */
 
 
-@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+/* @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
   * {
     background-color: #7b74ff;
     background-image: radial-gradient(green);
   }
 
-}
+} */
 
 
 body {
