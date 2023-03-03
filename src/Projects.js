@@ -5,6 +5,8 @@ import "./Projects.css";
 // import SweetPaw from "./images/Sweet-paw.png";
 // import Book1 from "./images/bookbuddygood.jpg";
 import Video from "./images/video.mp4";
+import BookBuddy from "./images/Book-Buddy-video.mp4";
+import SweetPaw from "./images/Sweet-paw-video.mp4";
 // import Book2 from "./images/book-buddy2.jpg";
 
 function Projects() {
@@ -15,7 +17,7 @@ function Projects() {
       <div className="card-flex">
         {/*  href="https://www.linkedin.com/in/andrewjbgrant/" target="blank"> */}
         <Card
-          video={Video}
+          video={SweetPaw}
           title="Sweet-Paw"
           skills={`Ruby/Rails SCSS Javascript`}
           // imageUrl={SweetPaw}
@@ -33,7 +35,7 @@ link={"https://sweet-paw.herokuapp.com/"}
 
 
         <Card
-          video={Video}
+          video={BookBuddy}
           // title="Book-Buddy"
           // imageUrl={Book1}
           body={`Final group Project part of Le Wagon
