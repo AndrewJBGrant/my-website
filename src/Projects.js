@@ -57,7 +57,7 @@ Can add a copy of a book to trade
 
         {/* href="https://www.linkedin.com/in/andrewjbgrant/" target="blank"> */}
         <Card
-          video={Video}
+          // video={Video}
           title="Weather-App"
           // imageUrl={logo}
           body={`A simple weather app I have been working on as I learn React
