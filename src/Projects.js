@@ -19,7 +19,9 @@ function Projects() {
         <Card
           video={SweetPaw}
           title="Sweet-Paw"
-          skills={`Ruby/Rails SCSS Javascript`}
+          skills1={`Ruby on Rails`}
+          skills2={`SCSS`}
+          skills3={`JavaScript`}
           // imageUrl={SweetPaw}
           body={`Three person group Project part of Le Wagon
 It is a website were you can rent out pets
@@ -28,14 +30,15 @@ Users can add their own pets as well as rent others
 Can search by map location and filter by speices
 
 Designed in Figma and deployed on Heroku
+Using Cloudinary for image storage and
+Postgresql for Data
 `}
-link={"https://sweet-paw.herokuapp.com/"}
-
+          link={"https://sweet-paw.herokuapp.com/"}
         />
-
 
         <Card
           video={BookBuddy}
+          title="Book-Buddy"
           // title="Book-Buddy"
           // imageUrl={Book1}
           body={`Final group Project part of Le Wagon
@@ -46,8 +49,10 @@ Users can search books by author, catergory or title
 Can add a copy of a book to trade
 
            `}
-           skills={`Ruby on Rails  SCSS  Javascript`}
-           link={"https://www.book-buddy.me/"}
+          skills1={`Ruby on Rails`}
+          skills2={`SCSS`}
+          skills3={`JavaScript`}
+          link={"https://www.book-buddy.me/"}
         />
 
         {/* href="https://www.linkedin.com/in/andrewjbgrant/" target="blank"> */}
@@ -55,16 +60,10 @@ Can add a copy of a book to trade
           video={Video}
           title="Weather-App"
           // imageUrl={logo}
-          body={`Three person group Project part of Le Wagon
-It is a website were you can rent out pets
-
-Designed in Figma and deployed on Heroku
-Users can add their own pets as well as rent others
-Can search by map location and filter by speices
-
-Built with Ruby on Rails, SCSS  and JavaScript stimulus controllers
-Using Cloudinary for images and Active Record for data
+          body={`A simple weather app I have been working on as I learn React
+I wanted to learn more about Api's and
 `}
+          skills={`React Axios OpenWeather API`}
         />
       </div>
       {/* <h5>I am always building and working on different projects and ideas as I continue to grow as a developer</h5> */}

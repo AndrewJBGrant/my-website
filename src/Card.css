@@ -16,10 +16,13 @@
   /* border-right:thin 1px var(--grey-900); */
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+  object-fit: contain;
+
 }
 
 video {
   width: 100%;
+  position:relative;
   height: 100%;
   max-width: 400px;
   border-bottom-left-radius: 6px;
@@ -55,10 +58,12 @@ p {
   opacity: 80%;
 }
 
-h6 {
+.skills-projects {
+  display: flex;
   color: #de6449;
   font-size: large;
   margin-bottom: 20px;
+  justify-content: space-between;
 }
 
 .website {
