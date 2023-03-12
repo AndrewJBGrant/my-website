@@ -1,4 +1,5 @@
 import React from "react";
+import ReadMore from "./ReadMore";
 import { FaGithub, FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 import { IoLogoJavascript, IoTerminal } from "react-icons/io5";
 import { SiRubyonrails } from "react-icons/si";
@@ -11,13 +12,14 @@ function About() {
       <div className="about-flex">
         <div className="background">
           <h1>Background</h1>
+          <ReadMore>
           <div className="paragragh">
-            <p>After working for over ten years as a Chef I felt the need for a change, A new path where I could continue to create, collaborate and to always be learning <br/>An environment where I could be building new skills while sharping and refining old ones<br/><br/>
-I took an interest in coding, with its vast and always changing world, the inspiring open source community and endless learning opportunities.<br/><br/>
+         <p>After working for over ten years as a Chef I felt the need for a change, A new path where I could continue to create, collaborate and to always be learning An environment where I could be building new skills while sharping and refining old ones
+I took an interest in coding, with its vast and always changing world, the inspiring open source community and endless learning opportunities.
 
 I enrolled in Le Wagon's Web development bootcamp, Using Ruby we learnt the basics of programming before a dive into OOP, We moved on to SQL and database structures then jumped into HTML , CSS and some JavaScript. We finished the course learning the Rails framework where we started to build bigger and more interactive apps before splitting into groups to complete two final projects
 
-<br/><br/>Since Graduating I have been learning React, working on different projects and sharperning my eye for good design.
+Since Graduating I have been learning React, working on different projects and sharperning my eye for good design.
 
 
 
@@ -29,6 +31,7 @@ I enrolled in Le Wagon's Web development bootcamp, Using Ruby we learnt the basi
               others taught me patience and how to provide constructive feedback */}
             </p>
           </div>
+          </ReadMore>
         </div>
 
         <h3 className="skills-heading">Skills and Tools</h3>

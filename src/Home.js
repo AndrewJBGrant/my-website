@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/logo.png";
+import Avatar from "./images/avatar.png";
 import "./Home.css";
 import CV from "./cv.pdf";
 function Home() {
@@ -36,7 +36,7 @@ function Home() {
             </a>
           </div>
           </div>
-          <img className="el-4-avatar" src={logo} alt="Logo" />
+          <img className="el-4-avatar" src={Avatar} alt="Logo" />
         </div>
       </section>
     </div>
