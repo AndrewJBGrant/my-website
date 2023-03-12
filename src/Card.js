@@ -6,7 +6,7 @@ function Card({ title, body, video, link, skills1, skills2, skills3 }) {
     <div className="card-container">
       <div className="image-container">
         {/* <img src={imageUrl} alt="why not??" className="image-container" width="600" height="400"/> */}
-        <video src={video} width="350" height="300" controls></video>
+        <video src={video} width="350" height="400" controls></video>
       </div>
 
       <div className="card-right">

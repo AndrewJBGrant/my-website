@@ -6,14 +6,14 @@ const ReadMore = ( {children} ) => {
   const text = children;
   // console.log(children.toString());
   console.log(text);
-  console.log(children);
+  // console.log(children);
   const togBtn = () => {
     setReadMore(!readMore);
   };
 
   return (
     <div>
-      {readMore ? text : `${text.slice(0, 100)}`}
+      {readMore ? text : `${text.slice(0, 245)}`}
       <button onClick={togBtn}>
         {readMore ? "Read Less" : "...Read More"}
       </button>

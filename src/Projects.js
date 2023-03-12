@@ -3,7 +3,7 @@ import Card from "./Card";
 import "./Projects.css";
 // import Video from "./images/video.mp4";
 // import BookBuddy from "./images/Book-Buddy-video.mp4";
-// import SweetPaw from "./images/Sweet-paw-video.mp4";
+// import SweetPaw from "./images/Sweet-paw-video.mp4"
 // import Weather from "./images/weather-app.mp4";
 
 function Projects() {

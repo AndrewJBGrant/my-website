@@ -1,15 +1,11 @@
 .about-flex {
-  /* display: block; */
   padding-top: 40px;
   padding-left: 80px;
 }
 
 .paragragh {
-/* background-color: #FBFBFF;; */
   width: 70%;
-}
-.paragragh p {
-font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 
@@ -26,4 +22,16 @@ font-size: 1.3rem;
   grid-template-rows: 110px;
   column-gap: 10px;
   padding-bottom: 50px;
+}
+
+button {
+  border:none;
+  color: #de6449;
+  background-color:#FDE2B6;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  /* color: aquamarine; */
+  cursor: pointer;
 }

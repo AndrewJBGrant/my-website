@@ -12,9 +12,9 @@ function About() {
       <div className="about-flex">
         <div className="background">
           <h1>Background</h1>
-          <ReadMore>
           <div className="paragragh">
-         <p>After working for over ten years as a Chef I felt the need for a change, A new path where I could continue to create, collaborate and to always be learning An environment where I could be building new skills while sharping and refining old ones
+          <ReadMore>
+         After working for over ten years as a Chef I felt the need for a change, A new path where I could continue to create, collaborate and to always be learning An environment where I could be building new skills while sharping and refining old ones. 
 I took an interest in coding, with its vast and always changing world, the inspiring open source community and endless learning opportunities.
 
 I enrolled in Le Wagon's Web development bootcamp, Using Ruby we learnt the basics of programming before a dive into OOP, We moved on to SQL and database structures then jumped into HTML , CSS and some JavaScript. We finished the course learning the Rails framework where we started to build bigger and more interactive apps before splitting into groups to complete two final projects
@@ -29,9 +29,9 @@ Since Graduating I have been learning React, working on different projects and s
               balance of being adaptable and open minded but also knowing when
               to think critically and make decisions. passing those skills on to
               others taught me patience and how to provide constructive feedback */}
-            </p>
-          </div>
+
           </ReadMore>
+          </div>
         </div>
 
         <h3 className="skills-heading">Skills and Tools</h3>
