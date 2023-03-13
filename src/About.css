@@ -6,22 +6,22 @@
 .paragragh {
   width: 70%;
   font-size: 1.5rem;
+  white-space:pre-wrap;
 }
 
 
 .skills-heading {
-  margin-top: 60px;
+  margin-top: 80px;
   font-weight: 900;
 }
 
 .skills {
-  margin-top: 40px;
+  margin-top: 60px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 110px;
   column-gap: 10px;
-  padding-bottom: 50px;
 }
 
 button {
@@ -29,6 +29,7 @@ button {
   color: #de6449;
   background-color:#FDE2B6;
   font-size: 1.3rem;
+  margin-left: 10px;
 }
 
 button:hover {

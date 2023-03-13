@@ -14,21 +14,11 @@ function About() {
           <h1>Background</h1>
           <div className="paragragh">
           <ReadMore>
-         After working for over ten years as a Chef I felt the need for a change, A new path where I could continue to create, collaborate and to always be learning An environment where I could be building new skills while sharping and refining old ones. 
+                After working for over ten years as a Chef I felt the need for a change, A new path where I could continue to create, collaborate and to always be learning An environment where I could be building new skills while sharping and refining old ones
 I took an interest in coding, with its vast and always changing world, the inspiring open source community and endless learning opportunities.
+I enrolled in Le Wagons Web development bootcamp, Using Ruby we learnt the basics of programming before a dive into OOP, We moved on to SQL and database structures then jumped into HTML , CSS and some JavaScript. We finished the course learning the Rails framework where we started to build bigger and more interactive apps before splitting into groups to complete two final projects
+Since Graduating I have been learning React, working on different projects and sharperning my eye for good design
 
-I enrolled in Le Wagon's Web development bootcamp, Using Ruby we learnt the basics of programming before a dive into OOP, We moved on to SQL and database structures then jumped into HTML , CSS and some JavaScript. We finished the course learning the Rails framework where we started to build bigger and more interactive apps before splitting into groups to complete two final projects
-
-Since Graduating I have been learning React, working on different projects and sharperning my eye for good design.
-
-
-
-              {/* My chef career presented me so many great opportunities in
-              different environments with a diverse group of people, teaching me
-              the importance of collaboration, good communication and the
-              balance of being adaptable and open minded but also knowing when
-              to think critically and make decisions. passing those skills on to
-              others taught me patience and how to provide constructive feedback */}
 
           </ReadMore>
           </div>

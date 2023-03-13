@@ -1,10 +1,10 @@
 .el-4-avatar {
-  /* margin: 80px; */
-  margin: 100px;
+  margin: 150px;
   border-radius: 50%;
   /* width: 100%; */
   max-width: 320px;
   max-height: 320px;
+  /* margin-left: 80px; */
 
 }
 
@@ -19,8 +19,7 @@ section {
   display: flex;
   align-items:center;
   justify-content: flex-start;
-
-}
+  }
 
 /* p {
   margin-bottom: 1rem;
