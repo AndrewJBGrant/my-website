@@ -1,10 +1,6 @@
 import React from "react";
 import Card from "./Card";
 import "./Projects.css";
-// import Video from "./images/video.mp4";
-// import BookBuddy from "./images/Book-Buddy-video.mp4";
-// import SweetPaw from "./images/Sweet-paw-video.mp4"
-// import Weather from "./images/weather-app.mp4";
 
 function Projects() {
   return (
@@ -14,7 +10,17 @@ function Projects() {
 
       <div className="card-flex">
         <Card
-          // video={SweetPaw}
+          video={
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/kuICQgGo6NE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          }
           title="Sweet-Paw"
           skills1={`Ruby on Rails`}
           skills2={`SCSS`}
@@ -22,25 +28,36 @@ function Projects() {
           body={`Three person group Project part of Le Wagon
 It is a website were you can rent out pets
 
-Users can add their own pets as well as rent others
+Users can add their own pets as well as rent others.
 Can search by map location and filter by speices
 
 Designed in Figma and deployed on Heroku
 Using Cloudinary for image storage and
-Postgresql for Data
+Active Record for Data
 `}
           link={"https://sweet-paw.herokuapp.com/"}
         />
 
         <Card
-          // video={BookBuddy}
+          video={
+            <iframe
+              width="360"
+              height="100%"
+              src="https://www.youtube-nocookie.com/embed/HRLhXzDTjv0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          }
           title="Book-Buddy"
           body={`Final group Project part of Le Wagon
 It is a mobile app to trade books
-
 Deployed on Heroku
 Users can search books by author, catergory or title
-Can add a copy of a book to trade
+Can add a copy of a book to trade and leave reviews
+We used Google Books Api to fill the database
+Websocket and Action cable to build a chat function
 
            `}
           skills1={`Ruby on Rails`}
@@ -50,12 +67,27 @@ Can add a copy of a book to trade
         />
 
         <Card
-          // video={Weather}
+          video={
+            <iframe
+              width="360"
+              height="100%"
+              src="https://www.youtube.com/embed/qWM0Oo7kf5s"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          }
           title="Weather-App"
-          body={`A simple weather app I have been working on as I learn React
-I wanted to learn more about Api's and
+          body={`A simple weather app I have been working on
+as I learn React
+
+I wanted to learn more about Apis
+and used Axios to make two calls to
+the Open Weather Api to first grt thr
 `}
-          skills={`React Axios OpenWeather API`}
+          skills1={`React`}
+          skills2={`Open weather Api`}
           link={"https://master--comforting-pika-5fcac7.netlify.app/"}
         />
       </div>

@@ -23,10 +23,10 @@ function About() {
             {/* <ReadMore> */}
             <p className="intro">
               After working for over ten years as a Chef I felt the need for a
-              change, A new path where I could continue to create, collaborate
-              and to always be learning,
-               An environment where I could be building
-              new skills while sharping and refining old ones
+              change, a new path where I could continue to create, collaborate
+              and learn,
+               an environment where I build
+              new skills while sharpening and refining old ones
             </p>
             {/* <button onClick={() => setReadMore(true)}>{"...read More"}</button> */}
 
