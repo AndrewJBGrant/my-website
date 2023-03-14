@@ -3,7 +3,7 @@
   padding-left: 80px;
 }
 
-.paragragh {
+.paragragh p {
   width: 70%;
   font-size: 1.5rem;
   white-space:pre-wrap;
@@ -29,7 +29,7 @@ button {
   color: #de6449;
   background-color:#FDE2B6;
   font-size: 1.3rem;
-  margin-left: 10px;
+  margin-top: 10px;
 }
 
 button:hover {
