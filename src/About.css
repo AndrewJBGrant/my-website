@@ -23,10 +23,10 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 110px;
   column-gap: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 38px;
 }
 
-button {
+.read-more-button {
   border:none;
   color: #de6449;
   background-color:#FDE2B6;
@@ -34,7 +34,7 @@ button {
   margin-top: 10px;
 }
 
-button:hover {
+.read-more-button:hover {
   /* color: aquamarine; */
   cursor: pointer;
 }

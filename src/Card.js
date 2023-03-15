@@ -5,8 +5,7 @@ function Card({ title, body, video, link, skills1, skills2, skills3 }) {
   return (
     <div className="card-container">
       <div className="image-container">
-        {video}
-
+        <span className="span">{video}</span>
       </div>
 
       <div className="card-right">
@@ -17,15 +16,22 @@ function Card({ title, body, video, link, skills1, skills2, skills3 }) {
 
           <div className="card-body">
             <p>{body} </p>
-            <div className="skills-projects">
-              <strong>{skills1}</strong>
-              <strong>{skills2}</strong>
-              <strong>{skills3}</strong>
-            </div>
 
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              <h4 className="website">Go To Website</h4>
-            </a>
+            <div className="bottom">
+              <div className="skills-projects">
+                <strong>{skills1}</strong>
+                <strong>{skills2}</strong>
+                <strong>{skills3}</strong>
+              </div>
+
+              <div className="website">
+                <button className="link-button">
+                  <a href={link} target="_blank" rel="noopener noreferrer">
+                    Go to Website
+                  </a>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

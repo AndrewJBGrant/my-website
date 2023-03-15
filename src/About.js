@@ -52,7 +52,7 @@ function About() {
                 eye for good design
               </p>
             ) : null}
-            <button onClick={togBtn}>
+            <button className="read-more-button" onClick={togBtn}>
               {readMore ? "Read Less" : "...Read More"}
             </button>
 

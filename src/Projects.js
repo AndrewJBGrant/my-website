@@ -12,8 +12,8 @@ function Projects() {
         <Card
           video={
             <iframe
-              width="100%"
-              height="100%"
+              width="360"
+              height="450"
               src="https://www.youtube.com/embed/kuICQgGo6NE"
               title="YouTube video player"
               frameborder="0"
@@ -33,8 +33,7 @@ Can search by map location and filter by speices
 
 Designed in Figma and deployed on Heroku
 Using Cloudinary for image storage and
-Active Record for Data
-`}
+Active Record for Data`}
           link={"https://sweet-paw.herokuapp.com/"}
         />
 
@@ -42,7 +41,7 @@ Active Record for Data
           video={
             <iframe
               width="360"
-              height="100%"
+              height="450"
               src="https://www.youtube-nocookie.com/embed/HRLhXzDTjv0"
               title="YouTube video player"
               frameborder="0"
@@ -51,15 +50,15 @@ Active Record for Data
             ></iframe>
           }
           title="Book-Buddy"
-          body={`Final group Project part of Le Wagon
-It is a mobile app to trade books
-Deployed on Heroku
-Users can search books by author, catergory or title
-Can add a copy of a book to trade and leave reviews
-We used Google Books Api to fill the database
-Websocket and Action cable to build a chat function
+          body={`Final group Project from Le Wagon
+It is a mobile app for users to swap books
 
-           `}
+Users can search for books by author, catergory or title
+Can add a copy of a book to trade and leave reviews
+
+Deployed on Heroku
+We used Google Books Api to fill the database
+Websocket and Action cable to build a chat function`}
           skills1={`Ruby on Rails`}
           skills2={`SCSS`}
           skills3={`JavaScript`}
@@ -70,7 +69,7 @@ Websocket and Action cable to build a chat function
           video={
             <iframe
               width="360"
-              height="100%"
+              height="450"
               src="https://www.youtube.com/embed/qWM0Oo7kf5s"
               title="YouTube video player"
               frameborder="0"
@@ -79,15 +78,18 @@ Websocket and Action cable to build a chat function
             ></iframe>
           }
           title="Weather-App"
-          body={`A simple weather app I have been working on
-as I learn React
+          body={`A simple weather app I am working on as
+I learn React
 
-I wanted to learn more about Apis
-and used Axios to make two calls to
-the Open Weather Api to first grt thr
-`}
+You can search by city for current temperature
+and a five day forecast
+
+I wanted to learn more about Apis and here
+using Axios to help make two calls to the
+Open weather Api`}
           skills1={`React`}
           skills2={`Open weather Api`}
+          skills3={`CSS`}
           link={"https://master--comforting-pika-5fcac7.netlify.app/"}
         />
       </div>
