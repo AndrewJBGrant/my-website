@@ -51,7 +51,7 @@ p {
 .skills-projects {
   display: flex;
   font-size: 1rem;
-  justify-content: flex-start;
+  justify-content:space-evenly;
   gap: 8px;
 }
 
@@ -99,22 +99,28 @@ iframe {
 
 @media (max-width: 84em) {
 .card-container {
-  width: 80%;
-  height: 250px;
+  width: 90%;
+  height: 240px;
   margin: 20px;
 }
 .image-container {
-  width: 40%;
-  display: block;
+  /* width: 40%;
+  display: block; */
+  max-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		object-fit: cover;
+		object-position: 50% 50%;
 }
 
 .card-content {
-width: 80%;
+width: 72%;
 }
 
 .card-title {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 12px;
+  margin-left: 12px;
   font-weight: bolder;
 }
 
@@ -124,11 +130,11 @@ h3 {
 
 .card-body {
   /* text-align: left; */
-  margin-left: 28px;
+  margin-left: 8px;
   font-weight: 100;
 }
 p {
-  font-size: 1em;
+  font-size: .6em;
   white-space: pre-wrap;
   opacity: 80%;
   line-height: 1;
@@ -137,18 +143,37 @@ p {
 
 iframe {
    width: 140px;
-   height: 180px;
+   height: 240px;
 }
 
 .skills-projects {
-  display: flex;
   font-size: 0.6rem;
   /* justify-content: flex-start; */
   gap: 8px;
+
 }
 
 .skills-projects strong {
   padding: 3px 12px;
+  color: #dd7963;
+  padding: 3px 12px;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 10px;
+  column-gap: 6px;
+  padding-bottom: 8px;
+}
+.link-button {
+  margin-top: 4px;
+  border-radius: 16px;
+  border: none;
+  padding: 2px 6px;
+
+}
+
+.link-button a {
+  font-size: .8em;
 }
 
 
