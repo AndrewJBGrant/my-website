@@ -1,12 +1,20 @@
 @media (max-width: 84em) {
+  /* All Pages */
   .nav-center a {
-    margin-left: 10px;
+    margin-left: 24px;
   }
-section {
- padding: 50px;
-}
+
   .text-left {
     margin: 10px;
+  }
+
+  /* Home Page */
+  section {
+    padding: 24px;
+  }
+
+  .home {
+    min-height: auto;
   }
 
   .el-4-avatar {
@@ -35,9 +43,9 @@ section {
     letter-spacing: 1px;
   }
 
-.el-3-links {
-  padding-top: 0px;
-}
+  .el-3-links {
+    padding-top: 0px;
+  }
 
   .el-3-links h3 {
     display: flex;
@@ -46,5 +54,56 @@ section {
     font-size: 1.5em;
     text-decoration: underline;
     /* margin-top: 20px; */
+  }
+
+  /* About Me Page */
+
+  .about-flex h1 {
+    font-size: 2.6em;
+  }
+  .about-flex {
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+
+  .paragragh p {
+    width: 86%;
+    font-size: 1.3rem;
+    white-space: pre-wrap;
+  }
+  .read-more-button {
+    font-size: 1.2rem;
+    margin-top: 8px;
+  }
+
+  .read-more-button:hover {
+    /* color: aquamarine; */
+    cursor: pointer;
+  }
+
+  .skills-heading {
+    margin-top: 60px;
+    font-size: 2.2rem;
+    font-weight: 300;
+  }
+
+
+  .skills {
+    margin-top: 60px;
+    align-items: center;
+
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px;
+    column-gap: 10px;
+    padding-bottom: 28px;
+  }
+  .skills p {
+    font-size: 0.9em;
+  }
+
+  .icons {
+    font-size: 3.4em;
   }
 }

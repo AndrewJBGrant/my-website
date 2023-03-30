@@ -63,35 +63,35 @@ function About() {
         <h3 className="skills-heading">Skills and Tools</h3>
         <div className="skills">
           <div>
-            <FaGithub color="#DE6449" fontSize="4rem" />
+            <FaGithub className="icons" />
             <p>Github</p>
           </div>
           <div>
-            <FaHtml5 color="#DE6449" fontSize="4rem" />
+            <FaHtml5 className="icons" />
             <p>HTML</p>
           </div>
           <div>
-            <FaCss3 color="#DE6449" fontSize="4rem" />
+            <FaCss3 className="icons" />
             <p>CSS</p>
           </div>
           <div>
-            <IoLogoJavascript color="#DE6449" fontSize="4rem" />
+            <IoLogoJavascript className="icons" />
             <p>JavaScript</p>
           </div>
           <div>
-            <FaReact color="#DE6449" fontSize="4rem" />
+            <FaReact className="icons" />
             <p>React</p>
           </div>
           <div>
-            <SiRubyonrails color="#DE6449" fontSize="4.2rem" />
+            <SiRubyonrails className="icons" color="#DE6449" fontSize="4.2rem" />
             <p>Ruby on Rails</p>
           </div>
           <div>
-            <IoTerminal color="#DE6449" fontSize="4rem" />
+            <IoTerminal className="icons" />
             <p>Terminal/Git</p>
           </div>
           <div>
-            <AiOutlineConsoleSql color="#DE6449" fontSize="4rem" />
+            <AiOutlineConsoleSql className="icons" />
             <p>SQL</p>
           </div>
         </div>

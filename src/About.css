@@ -9,6 +9,18 @@
   white-space:pre-wrap;
 }
 
+.read-more-button {
+  border:none;
+  color: #de6449;
+  background-color:#FDE2B6;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.read-more-button:hover {
+  /* color: aquamarine; */
+  cursor: pointer;
+}
 
 .skills-heading {
   margin-top: 80px;
@@ -26,15 +38,7 @@
   padding-bottom: 38px;
 }
 
-.read-more-button {
-  border:none;
-  color: #de6449;
-  background-color:#FDE2B6;
-  font-size: 1.4rem;
-  margin-top: 10px;
-}
-
-.read-more-button:hover {
-  /* color: aquamarine; */
-  cursor: pointer;
+.icons {
+  color: #DE6449;
+   font-size: 4rem;
 }
