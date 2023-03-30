@@ -106,4 +106,13 @@
   .icons {
     font-size: 3.4em;
   }
+
+  /* Projects Page */
+
+  .projects h2 {
+  padding-top: 30px;
+  padding-left: 10px;
+  font-size: 1.8em;
+
+}
 }

@@ -95,3 +95,63 @@ iframe {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }
+
+
+@media (max-width: 84em) {
+.card-container {
+  width: 80%;
+  height: 250px;
+  margin: 20px;
+}
+.image-container {
+  width: 40%;
+  display: block;
+}
+
+.card-content {
+width: 80%;
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+.card-body {
+  /* text-align: left; */
+  margin-left: 28px;
+  font-weight: 100;
+}
+p {
+  font-size: 1em;
+  white-space: pre-wrap;
+  opacity: 80%;
+  line-height: 1;
+  padding-bottom: 8px;
+}
+
+iframe {
+   width: 140px;
+   height: 180px;
+}
+
+.skills-projects {
+  display: flex;
+  font-size: 0.6rem;
+  /* justify-content: flex-start; */
+  gap: 8px;
+}
+
+.skills-projects strong {
+  padding: 3px 12px;
+}
+
+
+
+
+}

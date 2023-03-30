@@ -40,8 +40,8 @@ function About() {
                 opportunities
                 <br/>
                 <br/><p>I enrolled in Le Wagons Web development bootcamp,
-                Using Ruby we learnt the basics of programming before a dive
-                into OOP, We moved on to SQL and database structures then jumped
+                Using Ruby we learnt the basics of programming before a dive into OOP,
+                We moved on to SQL and database structures then jumped
                 into HTML , CSS and some JavaScript. We finished the course
                 learning the Rails framework where we started to build bigger
                 and more interactive apps before splitting into groups to
