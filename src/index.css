@@ -45,26 +45,6 @@ html {
 html {
   font-size: var(--defaultFontSize);
 }
-/* @media only screen and (min-width: 481px) {
-  :root {
-    --defaultFontSize: 100%;
-  }
-}
-@media only screen and (min-width: 768px) {
-  :root {
-    --defaultFontSize: 112.5%;
-  }
-} */
-
-
-/* @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
-  * {
-    background-color: #7b74ff;
-    background-image: radial-gradient(green);
-  }
-
-} */
-
 
 body {
   background: var(--backgroundColor);
@@ -129,13 +109,11 @@ a {
   justify-content: flex-start;
   padding:  1.5rem;
   box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
-
-
 }
 
 .nav-center {
   width: 100%;
-  max-width: var(--max-width);
+  /* max-width: var(--max-width); */
 }
 
 .nav-center a {
@@ -159,6 +137,7 @@ a {
 
 .home {
   background: #fbfbff;
+  width: 100%;
 
 }
 .about {
@@ -172,10 +151,4 @@ a {
   position: sticky;
   top: 0;
   z-index: 999;
-}
-
-@media screen and (min-width: 768px) {
-  .nav-center a:not(:last-of-type) {
-    margin-right: 0.5rem;
-  }
 }
