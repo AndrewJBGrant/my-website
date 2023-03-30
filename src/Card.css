@@ -99,81 +99,78 @@ iframe {
 
 @media (max-width: 84em) {
 .card-container {
+display: flex;
+flex-direction: column;
+
   width: 90%;
-  height: 240px;
+  height: 260px;
   margin: 20px;
 }
 .image-container {
-  /* width: 40%;
-  display: block; */
-  max-width: 100%;
-		min-height: 100%;
-		width: auto;
-		height: auto;
-		object-fit: cover;
-		object-position: 50% 50%;
+	width: auto;
 }
 
-.card-content {
-width: 72%;
-}
+/* .card-content {
+  text-align: center;
+
+} */
 
 .card-title {
-  margin-top: 12px;
-  margin-left: 12px;
-  font-weight: bolder;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
 }
 
 h3 {
   font-size: 1.2em;
 }
-
-.card-body {
-  /* text-align: left; */
-  margin-left: 8px;
-  font-weight: 100;
-}
-p {
-  font-size: .6em;
+.card-body p {
+  font-size: 1em;
   white-space: pre-wrap;
-  opacity: 80%;
   line-height: 1;
-  padding-bottom: 8px;
+  padding-bottom: 0px;
+  display: none;
+
 }
 
 iframe {
-   width: 140px;
-   height: 240px;
+border-top-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+
+   /* width: 140px;
+   height: 240px; */
+    /* height: auto; */
+    height: 180px;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 .skills-projects {
-  font-size: 0.6rem;
-  /* justify-content: flex-start; */
   gap: 8px;
-
 }
 
-.skills-projects strong {
-  padding: 3px 12px;
-  color: #dd7963;
-  padding: 3px 12px;
-  border: none;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 10px;
-  column-gap: 6px;
-  padding-bottom: 8px;
+.card-body {
+  display: flex;
 }
+
 .link-button {
   margin-top: 4px;
   border-radius: 16px;
   border: none;
   padding: 2px 6px;
-
 }
 
 .link-button a {
   font-size: .8em;
+}
+
+.bottom strong {
+ display: flex;
+ border-radius: none;
+ font-size: 0.9em;
+  border: none;
 }
 
 

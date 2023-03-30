@@ -30,7 +30,6 @@
 .skills {
   margin-top: 60px;
   align-items: center;
-
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 110px;

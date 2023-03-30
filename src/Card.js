@@ -2,7 +2,8 @@ import React from "react";
 import "./Card.css";
 
 function Card({ title, body, video, link, skills1, skills2, skills3 }) {
-  return (
+
+return (
     <div className="card-container">
       <div className="image-container">
         <span className="span">{video}</span>
@@ -16,6 +17,8 @@ function Card({ title, body, video, link, skills1, skills2, skills3 }) {
 
           <div className="card-body">
             <p>{body} </p>
+
+
 
             <div className="bottom">
               <div className="skills-projects">
