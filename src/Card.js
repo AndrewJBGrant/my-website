@@ -19,13 +19,13 @@ return (
             <p>{body} </p>
 
 
-
             <div className="bottom">
               <div className="skills-projects">
                 <strong>{skills1}</strong>
                 <strong>{skills2}</strong>
                 <strong>{skills3}</strong>
               </div>
+
 
               <div className="website">
                 <button className="link-button">

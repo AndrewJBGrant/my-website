@@ -34,26 +34,21 @@ function About() {
             {readMore ? (
 
               <p className="show-more">
-                <br/>
-                I took an interest in coding, with its vast and always changing
-                world, the inspiring open source community and endless learning
-                opportunities
-                <br/>
-                <br/><p>I enrolled in Le Wagons Web development bootcamp,
-                Using Ruby we learnt the basics of programming before a dive into OOP,
-                We moved on to SQL and database structures then jumped
-                into HTML , CSS and some JavaScript. We finished the course
-                learning the Rails framework where we started to build bigger
-                and more interactive apps before splitting into groups to
-                complete two final projects</p>
 
-                <br/>Since Graduating I have been
-                learning React, working on different projects and sharperning my
-                eye for good design
+                I took an interest in coding and enrolled in Le Wagon's Full stack Development Bootcamp, working with Ruby we learnt the key concepts of Object-oriented programming, databases with SQL and Front-end with JavaScript, HTML and CSS.
+                <br/><br/>Building on those skills we moved on to the Rails framework
+                and in teams of three we designed and deployed two functioning web apps,
+
+
+                <br/><br/>I am always looking to learn about new languages, frameworks and libraries,<br/>Since Graduating I have been
+                working mainly with React
+                 and TypeScript to build projects, using testing to make my code more robust
+                 and reading up on good web design principles.
+
               </p>
             ) : null}
             <button className="read-more-button" onClick={togBtn}>
-              {readMore ? "Read Less" : "...Read More"}
+              {readMore ? "Read Less..." : "...Read More"}
             </button>
 
             {/* </ReadMore> */}
@@ -63,24 +58,24 @@ function About() {
         <h3 className="skills-heading">Skills and Tools</h3>
         <div className="skills">
           <div>
-            <FaGithub className="icons" />
-            <p>Github</p>
-          </div>
-          <div>
-            <FaHtml5 className="icons" />
-            <p>HTML</p>
-          </div>
-          <div>
-            <FaCss3 className="icons" />
-            <p>CSS</p>
-          </div>
-          <div>
             <IoLogoJavascript className="icons" />
             <p>JavaScript</p>
           </div>
           <div>
             <FaReact className="icons" />
             <p>React</p>
+          </div>
+          <div>
+            <FaCss3 className="icons" />
+            <p>CSS</p>
+          </div>
+          <div>
+            <FaHtml5 className="icons" />
+            <p>HTML</p>
+          </div>
+          <div>
+            <FaGithub className="icons" />
+            <p>Github</p>
           </div>
           <div>
             <SiRubyonrails className="icons" color="#DE6449" fontSize="4.2rem" />

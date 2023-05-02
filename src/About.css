@@ -32,9 +32,9 @@
   align-items: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 110px;
-  column-gap: 10px;
-  padding-bottom: 38px;
+  grid-template-rows: 180px;
+  column-gap: 18px;
+  /* padding-bottom: 38px; */
 }
 
 .icons {

@@ -5,7 +5,7 @@ import "./Projects.css";
 function Projects() {
   return (
     <div className="projects" id="projects">
-      <h2> Here are some recent projects I have worked on</h2>
+      <h2> Some recent projects I have worked on</h2>
       {/* <h5>I am always building and working on different projects and ideas as I continue to grow as a developer</h5> */}
 
       <div className="card-flex">
@@ -25,7 +25,7 @@ function Projects() {
           skills1={`Ruby on Rails`}
           skills2={`SCSS`}
           skills3={`JavaScript`}
-          body={`Three person group Project part of Le Wagon
+          body={`Three person group Project part of Le Wagon,
 It is a website were you can rent out pets
 
 Users can add their own pets as well as rent others.
