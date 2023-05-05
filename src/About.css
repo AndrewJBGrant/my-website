@@ -28,7 +28,8 @@
 }
 
 .skills {
-  margin-top: 60px;
+  padding-left: 80px;
+  margin-top: 40px;
   align-items: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

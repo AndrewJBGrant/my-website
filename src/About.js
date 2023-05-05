@@ -7,6 +7,8 @@ import { SiRubyonrails } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import "./About.css";
 
+import { links } from './data'
+
 function About() {
   const [readMore, setReadMore] = useState(false);
 
@@ -26,7 +28,7 @@ function About() {
               change, a new path where I could continue to create, collaborate
               and learn,
                an environment where I build
-              new skills while sharpening and refining old ones
+              new skills while sharpening and refining old ones.
             </p>
             {/* <button onClick={() => setReadMore(true)}>{"...read More"}</button> */}
 
@@ -35,14 +37,15 @@ function About() {
 
               <p className="show-more">
 
-                I took an interest in coding and enrolled in Le Wagon's Full stack Development Bootcamp, working with Ruby we learnt the key concepts of Object-oriented programming, databases with SQL and Front-end with JavaScript, HTML and CSS.
+                I took an interest in coding and enrolled in Le Wagon's Full stack Development Bootcamp, working with Ruby we learnt the key concepts and practices of Object-oriented programming, databases with SQL and Front-end with JavaScript, HTML and CSS.
                 <br/><br/>Building on those skills we moved on to the Rails framework
-                and in teams of three we designed and deployed two functioning web apps,
+                and in teams of three we designed, built and deployed two functioning Web applications.
 
 
-                <br/><br/>I am always looking to learn about new languages, frameworks and libraries,<br/>Since Graduating I have been
+                <br/><br/>Since Graduating I have been
                 working mainly with React
-                 and TypeScript to build projects, using testing to make my code more robust
+                 and TypeScript to build projects. Utilizing
+ testing to make my code more robust
                  and reading up on good web design principles.
 
               </p>

@@ -13,10 +13,11 @@ function Home() {
             <span className="span-2"> Andrew</span>
           </div>
           <p className="el-2-about-me">
-           I am a Front-End developer based in Berlin<br/>
-           who aims to make clean functional Web apps <br/>with a focus on good UI/UX<br/><br/>
-           Always looking to learn new skills and grow as a developer
-            <br/><br/>On the hunt for a Junior Front-End role
+           I am a Front-End developer
+           who aims to make clean functional Web apps with a focus on good UI/UX.<br/><br/>
+           Recently I have been working with React, TypeScript and Ruby on Rails.<br/><br/>
+           Always looking to learn about new technologies, libraries and frameworks to grow as a developer.
+            <br/><br/>On the hunt for a Junior Front-End role.
           </p>
           <div className="el-3-links">
             <a href="https://www.linkedin.com/in/andrewjbgrant/" target="blank">
