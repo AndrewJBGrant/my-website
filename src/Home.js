@@ -15,7 +15,7 @@ function Home() {
           <p className="el-2-about-me">
            I am a Junior Web developer<br/>
            who aims to make clean functional Web apps with a focus on good UI/UX.<br/><br/>
-           Recently I have been working with React, TypeScript and Ruby on Rails.<br/><br/>
+           {/* Recently I have been working with React, TypeScript and Ruby on Rails.<br/><br/> */}
            Always looking to learn about new technologies, libraries and frameworks to grow as a developer.
             <br/><br/>On the hunt for a Junior role.
           </p>
