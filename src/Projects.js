@@ -12,8 +12,8 @@ function Projects() {
         <Card
           video={
             <iframe
-              width="360"
-              height="450"
+              width="300"
+              height="300"
               src="https://www.youtube.com/embed/kuICQgGo6NE"
               title="YouTube video player"
               frameborder="0"
@@ -40,8 +40,8 @@ Active Record for Data`}
         <Card
           video={
             <iframe
-              width="360"
-              height="450"
+              width="300"
+              height="300"
               src="https://www.youtube-nocookie.com/embed/HRLhXzDTjv0"
               title="YouTube video player"
               frameborder="0"
@@ -68,8 +68,8 @@ Websocket and Action cable to build a chat function`}
         <Card
           video={
             <iframe
-              width="360"
-              height="450"
+              width="300"
+              height="300"
               src="https://www.youtube.com/embed/qWM0Oo7kf5s"
               title="YouTube video player"
               frameborder="0"

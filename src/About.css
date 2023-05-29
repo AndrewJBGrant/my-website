@@ -40,5 +40,18 @@
 
 .icons {
   color: #DE6449;
-   font-size: 4rem;
+   font-size: 3.8rem;
+}
+
+
+.icon-div {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 15px;
+}
+
+.icons-text {
+  background: var(#70747c);
+  font-size: 1.6rem;
 }

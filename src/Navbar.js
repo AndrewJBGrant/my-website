@@ -1,5 +1,47 @@
-import React from 'react'
+import { useState } from 'react'
 import { links } from './data'
+
+// const Tab = styled.button`
+//   padding: 10px 30px;
+//   cursor: pointer;
+//   opacity: 0.6;
+//   background: white;
+//   border: 0;
+//   outline: 0;
+//   border-bottom: 2px solid transparent;
+//   transition: ease border-bottom 250ms;
+//   ${({ active }) =>
+//     active &&
+//     `
+//     border-bottom: 2px solid black;
+//     opacity: 1;
+//   `}
+// `;
+
+
+ export function TabGroup() {
+  const [active, setActive] = useState(links[0]);
+  return (
+    <>
+      <div>
+        {links.map((link) => (
+          <a className='new-style'
+            href={link.url}
+            key={link}
+            active={active === link}
+            onClick={() => setActive(link)}
+          >
+            {link}
+          </a>
+        ))}
+      </div>
+      <p />
+      <p> Your payment selection: {active} </p>
+    </>
+  );
+}
+
+
 const Navbar = () => {
   const handleClick = (event) => {
     event.preventDefault()
@@ -12,6 +54,9 @@ const Navbar = () => {
     })
   }
   return (
+
+
+
     <nav className='navbar sticky'>
       <div className='nav-center'>
         <div>

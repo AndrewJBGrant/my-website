@@ -1,13 +1,8 @@
 import React from "react";
 import { useState } from "react";
 // import ReadMore from "./ReadMore";
-import { FaGithub, FaHtml5, FaCss3, FaReact } from "react-icons/fa";
-import { IoLogoJavascript, IoTerminal } from "react-icons/io5";
-import { SiRubyonrails } from "react-icons/si";
-import { AiOutlineConsoleSql } from "react-icons/ai";
 import "./About.css";
 
-import { links } from './data'
 
 function About() {
   const [readMore, setReadMore] = useState(false);
@@ -58,43 +53,19 @@ function About() {
           </div>
         </div>
 
-        <h3 className="skills-heading">Skills and Tools</h3>
-        <div className="skills">
-          <div>
-            <IoLogoJavascript className="icons" />
-            <p>JavaScript</p>
-          </div>
-          <div>
-            <FaReact className="icons" />
-            <p>React</p>
-          </div>
-          <div>
-            <FaCss3 className="icons" />
-            <p>CSS</p>
-          </div>
-          <div>
-            <FaHtml5 className="icons" />
-            <p>HTML</p>
-          </div>
-          <div>
-            <FaGithub className="icons" />
-            <p>Github</p>
-          </div>
-          <div>
-            <SiRubyonrails className="icons" color="#DE6449" fontSize="4.2rem" />
-            <p>Ruby on Rails</p>
-          </div>
-          <div>
-            <IoTerminal className="icons" />
-            <p>Terminal/Git</p>
-          </div>
-          <div>
-            <AiOutlineConsoleSql className="icons" />
-            <p>SQL</p>
-          </div>
-        </div>
-      </div>
+
+    <div className="icon-div">
+      <span className="icons-text">React</span>
     </div>
+     <div className="icon-div">
+      <span className="icons-text">JavaScript</span>
+    </div>
+    </div>
+
+
+
+    </div>
+
   );
 }
 

@@ -32,19 +32,10 @@ section {
 .el-1-header {
   align-self: flex-start;
 }
-.span-1 {
-  font-size: 3rem;
-  letter-spacing: 1px;
-}
-.span-2 {
-  font-size: 4.2rem;
-  letter-spacing: 5px;
-  color: #de6449;
-}
+
 
 
 .el-2-about-me {
-  font-size: 1.8rem;
   align-self: flex-start;
 
 }

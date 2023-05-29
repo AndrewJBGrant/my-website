@@ -1,11 +1,13 @@
 /* Whole Card */
 .card-container {
-  width: 60%;
-  height: 450px;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px;
+  /* width: 60%;
+  height: 450px; */
+  /* border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px; */
+
+
   display: flex;
-  background-color: #fbfbff;
+  
   margin: 30px;
 }
 
