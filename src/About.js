@@ -2,6 +2,9 @@ import React from "react";
 import { useState } from "react";
 // import ReadMore from "./ReadMore";
 import "./About.css";
+import JSIcon from './icons/javascript.svg';
+import RubyOnRails from './icons/rubyorails.svg'
+import CSS from './icons/CSS.svg'
 
 
 function About() {
@@ -58,7 +61,10 @@ function About() {
       <span className="icons-text">React</span>
     </div>
      <div className="icon-div">
-      <span className="icons-text">JavaScript</span>
+
+      <img src={ JSIcon } alt="JS Logo" /> JavaScript
+      <img src={ RubyOnRails } alt="ROR Logo" />Ruby on Rails
+       <img src={ CSS } alt="ROR Logo" /> CSS
     </div>
     </div>
 

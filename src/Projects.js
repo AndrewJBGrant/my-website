@@ -5,7 +5,7 @@ import "./Projects.css";
 function Projects() {
   return (
     <div className="projects" id="projects">
-      <h2> Some recent projects I have worked on</h2>
+      <h1> Some projects I have worked on</h1>
       {/* <h5>I am always building and working on different projects and ideas as I continue to grow as a developer</h5> */}
 
       <div className="card-flex">
@@ -25,14 +25,14 @@ function Projects() {
           skills1={`Ruby on Rails`}
           skills2={`SCSS`}
           skills3={`JavaScript`}
-          body={`Three person group Project part of Le Wagon,
-It is a website were you can rent out pets
+          body={`3 person group Project part of Le Wagon
+          A website to rent/swap pets
 
 Users can add their own pets as well as rent others.
 Can search by map location and filter by speices
 
-Designed in Figma and deployed on Heroku
-Using Cloudinary for image storage and
+Using Figma and deployed on Heroku
+Cloudinary for image storage and
 Active Record for Data`}
           link={"https://sweet-paw.herokuapp.com/"}
         />
@@ -51,14 +51,14 @@ Active Record for Data`}
           }
           title="Book-Buddy"
           body={`Final group Project from Le Wagon
-It is a mobile app for users to swap books
+Mobile app for users to swap books
 
-Users can search for books by author, catergory or title
-Can add a copy of a book to trade and leave reviews
+Search for books by author, catergory or title
+Add a copy of a book to trade and leave reviews
 
 Deployed on Heroku
-We used Google Books Api to fill the database
-Websocket and Action cable to build a chat function`}
+Google Books Api to fill the database
+Websocket and Action cable for a chat function`}
           skills1={`Ruby on Rails`}
           skills2={`SCSS`}
           skills3={`JavaScript`}
@@ -78,13 +78,13 @@ Websocket and Action cable to build a chat function`}
             ></iframe>
           }
           title="Weather-App"
-          body={`A simple weather app I am working on as
+          body={`A weather app I am working on as
 I learn React
 
-You can search by city for current temperature
+Can search by city for current temperature
 and a five day forecast
 
-I wanted to learn more about Apis and here
+learning more about Apis and
 using Axios to help make two calls to the
 Open weather Api`}
           skills1={`React`}

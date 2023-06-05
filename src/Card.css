@@ -1,95 +1,57 @@
 /* Whole Card */
 .card-container {
-  /* width: 60%;
-  height: 450px; */
-  /* border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px; */
+  border: solid 1px red;
 
-
-  display: flex;
-  
-  margin: 30px;
+  display: grid;
+  padding: 8px 12px;
 }
 
 /* Left side of card */
 
 .image-container {
-  background-color: #fbfbff;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-  width: 40%;
-  display: block;
+  border: solid 1px blue;
 }
 
 /* Right side of Card */
-.card-right {
-  display: flex;
-}
 
 .card-title {
   margin-top: 20px;
-  margin-left: 50px;
-  font-weight: bolder;
-}
 
-h3 {
-  font-size: xx-large;
+  font-weight: bold;
 }
 
 .card-body {
-  /* text-align: left; */
-  margin-left: 50px;
   font-weight: 100;
-}
-p {
-  font-size: 1.2rem;
+  border: solid 5px green;
   white-space: pre-wrap;
-  /* opacity: 80%; */
-  line-height: 1.5;
-  padding-bottom: 18px;
+  text-align:left;
+
+
+
+
 }
 
 /* Skills and link */
-.skills-projects {
-  display: flex;
-  font-size: 1.3rem;
-  justify-content: space-evenly;
-  gap: 8px;
-}
-
-.skills-projects strong {
-  /* border-radius: 16px;
-  background-color: #fbfbff; */
-  color: #dd7963;
-  text-decoration: underline;
-  padding: 3px 12px;
-
-  /* border: solid #dd7963 1px; */
-  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
-}
 
 .link-button a {
   text-decoration: none;
-  color:#fbfbff;
+  color: #fbfbff;
   font-size: 1.1rem;
   font-weight: 1.1rem;
 }
 
-
 .link-button {
-  margin-top: 20px;
   border-radius: 6px;
   border: none;
-  /* box-shadow: rgba(1, 60, 136, 0.5) 0 -1px 3px 0 inset,
-    rgba(0, 44, 97, 0.1) 0 3px 6px 0; */
-  box-sizing: border-box;
+
   background-color: #dd7963;
   cursor: pointer;
-  min-height: 5px;
   min-width: 20px;
+  width: 60%;
   padding: 10px 20px;
   position: relative;
   text-align: center;
+
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -103,16 +65,10 @@ p {
   transform: translateY(-3px);
 }
 
-/* @media (min-width: 768px) {
-  .link-button {
-    padding: 16px 44px;
-    min-width: 150px;
-  }
-} */
-
 iframe {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+  width: 100%;
 }
 
 @media (max-width: 84em) {
@@ -172,14 +128,8 @@ iframe {
     display: flex;
   }
 
-  .link-button a {
-    font-size: 0.8em;
-  }
-
   .bottom strong {
     display: flex;
-    border-radius: none;
-    font-size: 0.9em;
     border: none;
   }
 }

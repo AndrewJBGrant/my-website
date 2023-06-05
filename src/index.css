@@ -14,20 +14,7 @@ html {
 }
 /* :root {
   /* COLORS  */
-  /* grey */
-  /* --grey-0: #fafbfc;
-  --grey-50: #f2f4f8;
-  --grey-100: #eaedf3;
-  --grey-200: #e2e7ef;
-  --grey-300: #dbe0ea;
-  --grey-400: #d3dae6;
-  --grey-500: #cbd3e1;
-  --grey-600: #adb3bf;
-  --grey-700: #8e949e;
-  --grey-800: #70747c;
-  --grey-900: #51545a;
-  --grey-1000: #333538;
-  --grey-1100: #141516;  */
+
 
 
   /* typography
@@ -58,44 +45,8 @@ body {
   line-height: 1.75;
 } */
 
-/* h1,
-h2,
-h3,
-h4,
-h5 {
-  margin: 0;
-  margin-bottom: 1.38rem;
-  font-family: var(--headingFont);
-  font-weight: 400;
-  line-height: 1.3;
-  text-transform: capitalize;
-  /* letter-spacing: var(--letterSpacing); */
 
 
-/* h1 {
-  font-size: 3.052rem;
-}
-
-h2 {
-  font-size: 2.441rem;
-}
-
-h3 {
-  font-size: 1.953rem;
-}
-
-h4 {
-  font-size: 1.563rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-} */
-
-small,
-.text_small {
-  font-size: var(--smallText);
-}
 
 ul {
   padding: 0;
@@ -133,16 +84,6 @@ a {
   color: #ff8569;
 }
 
-/* .new-style {
-    padding: 10px 30px;
-  cursor: pointer;
-  opacity: 0.6;
-  background: white;
-  border: 0;
-  outline: 0;
-  border-bottom: 2px solid transparent;
-  transition: ease border-bottom 250ms;
-} */
 
 
 
@@ -150,25 +91,31 @@ a {
 
 
 
+ /* base styles */
 .home,
 .about,
 .projects {
   min-height: 100vh;
+   background: #fbfbff;
 }
 
-.home {
+/* .home {
   background: #fbfbff;
-
 }
 .about {
   background: #fde2b6;
 }
 .projects {
   background: #f0f0ff;
-}
+} */
 
 .sticky {
   position: sticky;
   top: 0;
   z-index: 999;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-left: 80px;
 }
