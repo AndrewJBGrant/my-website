@@ -1,53 +1,172 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400");
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+:root {
+  --clr-accent-400: hsl(12, 88%, 59%);
+  --clr-accent-500: hsl(12, 50%, 40%);
+  --clr-accent-300: hsl(12, 88%, 75%);
+  --clr-accent-100: hsl(13, 100%, 96%);
+
+  --clr-primary-400: hsl(228, 39%, 23%);
+
+  --clr-neutral-900: hsl(232, 12%, 13%);
+  --clr-neutral-200: hsl(0 0% 97%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+
+  --clr-text: #231F20;
+
+  --ff-primary: 'Lilita One', cursive;
+
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
+
+  --fw-regular: 400;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
+
+  --fs-300: 0.8125rem;
+  --fs-400: 0.875rem;
+  --fs-500: 0.9375rem;
+  --fs-600: 1rem;
+  --fs-700: 1.875rem;
+  --fs-800: 2.5rem;
+  --fs-900: 3.5rem;
+
+  --fs-body: var(--fs-400);
+  --fs-primary-heading: var(--fs-800);
+  --fs-secondary-heading: var(--fs-700);
+  --fs-nav: var(--fs-500);
+  /* --fs-button: var(--fs-300); */
 
 
+  --size-100: 0.25rem;
+  --size-200: 0.5rem;
+  --size-300: 0.75rem;
+  --size-400: 1rem;
+  --size-500: 1.5rem;
+  --size-600: 2rem;
+  --size-700: 3rem;
+  --size-800: 4rem;
+  --size-900: 5rem;
+}
 
+@media (min-width: 50em) {
+  :root {
+    --fs-body: var(--fs-500);
+    --fs-primary-heading: var(--fs-900);
+    --fs-secondary-heading: var(--fs-800);
+
+    --fs-nav: var(--fs-300);
+  }
+}
+
+/* Box sizing rules */
 *,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
+*::before,
+*::after {
   box-sizing: border-box;
 }
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Set core body defaults */
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* general styling */
+
+body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-400);
+}
+
+
+p:not([class]) {
+  opacity: 0.8;
+  max-width: 32ch;
+}
+
+p[data-width="wide"] {
+  max-width: 42ch;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html {
   scroll-behavior: smooth;
 }
-/* :root {
-  /* COLORS  */
-
-
-
-  /* typography
-  --defaultFontSize: 87.5%;
-  --headingFont: "Inconsolata", monospace;
-  --bodyFont: "Montserrat", sans-serif;
-  --smallText: 0.8em;
-  --extraSmallText: 0.7em;
-  /* rest */
-  /* --backgroundColor: var(--grey-50);
-  --textColor: var(--main--black);
-  --borderRadius: 0.25rem;
-  --letterSpacing: 1px;
-  --transition: 0.3s ease-in-out all;
-  --max-width: 1120px;
-  --fixed-width: 600px;
-} */
-
-/* html {
-  font-size: var(--defaultFontSize);
-}
-
-body {
-  background: var(--backgroundColor);
-  color: var(--textColor);
-  font-family: var(--bodyFont);
-  font-weight: 400;
-  line-height: 1.75;
-} */
-
-
-
-
 ul {
   padding: 0;
   list-style-type: none;
@@ -55,67 +174,35 @@ ul {
 a {
   text-decoration: none;
 }
-
 .navbar {
   background: #fbfbff;
-  height: 74px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding:  1.5rem;
   box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
-
 .nav-center {
   width: 100%;
   /* max-width: var(--max-width); */
 }
-
 .nav-center a {
-  color: var(--main--black);
+
   margin-left: 50px;
   font-size: clamp(1.4rem, 5vw, 0.85rem);
-
-  transition: var(--transition);
   text-transform: uppercase;
-
 }
-.nav-center a:hover {
-  color: #ff8569;
-}
-
-
-
-
-
-
-
-
  /* base styles */
 .home,
 .about,
 .projects {
   min-height: 100vh;
-   background: #fbfbff;
+  background: var(--clr-background);
+  color: var(--clr-text);
 }
-
-/* .home {
-  background: #fbfbff;
-}
-.about {
-  background: #fde2b6;
-}
-.projects {
-  background: #f0f0ff;
-} */
-
 .sticky {
   position: sticky;
   top: 0;
   z-index: 999;
-}
-
-h1 {
-  font-size: 3rem;
-  padding-left: 80px;
 }

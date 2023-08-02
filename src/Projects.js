@@ -17,8 +17,7 @@ function Projects() {
               src="https://www.youtube.com/embed/kuICQgGo6NE"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share fullscreen"
             ></iframe>
           }
           title="Sweet-Paw"
@@ -45,8 +44,8 @@ Active Record for Data`}
               src="https://www.youtube-nocookie.com/embed/HRLhXzDTjv0"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share fullscreen"
+
             ></iframe>
           }
           title="Book-Buddy"
@@ -73,8 +72,7 @@ Websocket and Action cable for a chat function`}
               src="https://www.youtube.com/embed/qWM0Oo7kf5s"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share fullscreen"
             ></iframe>
           }
           title="Weather-App"

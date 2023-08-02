@@ -1,17 +1,13 @@
-.about-flex {
-  padding-top: 40px;
-
+.about {
+  display: flex;
+  border: solid 2px blue;
+  margin: 60px;
 }
 
-.paragragh p {
-  width: 70%;
-  font-size: 1.5rem;
-}
 
 .read-more-button {
   border:none;
   color: #de6449;
-  background-color:#FDE2B6;
   font-size: 1.4rem;
   margin-top: 10px;
 }
@@ -21,36 +17,23 @@
   cursor: pointer;
 }
 
-.skills-heading {
-  margin-top: 80px;
-  font-weight: 900;
-}
 
-.skills {
-  padding-left: 80px;
+aside {
+  display: grid;
+  width: 30%;
   margin-top: 40px;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 180px;
-  column-gap: 18px;
-  /* padding-bottom: 38px; */
+  border-left: #de6449 solid 2px;
+}
+span {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  border: solid 2px red;
+  height: 60px;
+  border-radius: 6px;
 }
 
-.icons {
-  color: #DE6449;
-   font-size: 3.8rem;
-}
-
-
-.icon-div {
-  display: grid;
-  padding: 20px;
-  align-items: center;
-  gap: 15px;
-}
-
-.icons-text {
-  background: var(#70747c);
-  font-size: 1.6rem;
+h4 {
+  padding: 8px;
 }

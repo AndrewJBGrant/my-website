@@ -12,10 +12,10 @@ function Card({ title, body, video, link, skills1, skills2, skills3 }) {
         <h3>{title} </h3>
         <span>{body}</span>
 
-        <section>
-          <strong>{skills1}</strong>
-          <strong>{skills2}</strong>
-          <strong>{skills3}</strong>
+        <section className="skills">
+          <p>{skills1}</p>
+          <p>{skills2}</p>
+          <p>{skills3}</p>
         </section>
 
         <section className="bottom">
