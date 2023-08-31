@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-
 :root {
+font-family: 'Satoshi', sans-serif;
+font-family: 'Cabinet Grotesk', sans-serif;
   --clr-accent-400: hsl(12, 88%, 59%);
   --clr-accent-500: hsl(12, 50%, 40%);
   --clr-accent-300: hsl(12, 88%, 75%);
@@ -12,9 +12,7 @@
   --clr-neutral-200: hsl(0 0% 97%);
   --clr-neutral-100: hsl(0, 0%, 100%);
 
-  --clr-text: #231F20;
-
-  --ff-primary: 'Lilita One', cursive;
+  --clr-text: #231f20;
 
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
@@ -36,7 +34,6 @@
   --fs-secondary-heading: var(--fs-700);
   --fs-nav: var(--fs-500);
   /* --fs-button: var(--fs-300); */
-
 
   --size-100: 0.25rem;
   --size-200: 0.5rem;
@@ -130,8 +127,8 @@ body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-400);
-}
 
+}
 
 p:not([class]) {
   opacity: 0.8;
@@ -141,28 +138,6 @@ p:not([class]) {
 p[data-width="wide"] {
   max-width: 42ch;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 html {
   scroll-behavior: smooth;
@@ -175,25 +150,24 @@ a {
   text-decoration: none;
 }
 .navbar {
-  background: #fbfbff;
-  height: 60px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding:  1.5rem;
-  box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+  /* padding: 1.5rem; */
+  /* box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px; */
 }
 .nav-center {
   width: 100%;
   /* max-width: var(--max-width); */
 }
 .nav-center a {
-
   margin-left: 50px;
   font-size: clamp(1.4rem, 5vw, 0.85rem);
   text-transform: uppercase;
+  color: var(--clr-text)
 }
- /* base styles */
+/* base styles */
 .home,
 .about,
 .projects {
@@ -201,6 +175,8 @@ a {
   background: var(--clr-background);
   color: var(--clr-text);
 }
+
+
 .sticky {
   position: sticky;
   top: 0;

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useState } from "react";
 // import ReadMore from "./ReadMore";
 import "./About.css";
@@ -12,7 +12,7 @@ import figma from './icons/figma.svg'
 
 function About() {
   const [readMore, setReadMore] = useState(false);
-
+console.log("Hello to you");
   const togBtn = () => {
     setReadMore(!readMore);
   };
@@ -65,11 +65,12 @@ function About() {
 <h3>Skills and tools </h3>
 
       <span> <h4>JavaScript</h4> <img src={ JSIcon } alt="JS Logo" /></span>
-     <span> Ruby on Rails <img src={ RubyOnRails } alt="ROR Logo" /></span>
-       <span><img src={ Css } alt="CSS-logo" /> CSS </span>
-       <span><img src={ react } alt="React-logo" /> React </span>
-       <span><img src={ html } alt="HTML-logo" /> HTML </span>
-       <span><img src={ figma } alt="figma-logo" /> Figma </span>
+     <span><h4>Ruby on Rails</h4><img src={ RubyOnRails } alt="ROR Logo" /></span>
+       <span><h4>CSS</h4><img src={ Css } alt="CSS-logo" /></span>
+
+       <span><h4>React</h4><img src={ react } alt="React-logo" /></span>
+       <span><h4>HTML</h4><img src={ html } alt="HTML-logo" /></span>
+       <span><h4>Figma</h4><img src={ figma } alt="figma-logo" /></span>
     </aside>
 
 
