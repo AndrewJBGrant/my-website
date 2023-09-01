@@ -1,70 +1,13 @@
-/* .about {
+.about {
   display: flex;
-  border: solid 2px blue;
-  margin: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
 }
 
 
-.read-more-button {
-  border:none;
-  color: #de6449;
-  font-size: 1.4rem;
-  margin-top: 10px;
-}
-
-.read-more-button:hover {
-  /* color: aquamarine; */
-  /* cursor: pointer;
-} */
-
-/*
-aside {
-  display: grid;
-  width: 30%;
-  margin-top: 40px;
-  border-left: #de6449 solid 2px;
-}
-span {
-  gap: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  border: solid 2px red;
-  height: 60px;
-  border-radius: 6px;
-}
-
-h4 {
-  padding: 8px;
-} */
-
-.links {
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.links h2 {
-
-/* background-image: linear-gradient(90deg, red, blue);
-background-clip: text;
-color: transparent; */
-
-  background-image: -webkit-linear-gradient(left, #099E2A 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, #099E2A 75%);
-  background-image: linear-gradient(90deg, #099E2A 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, #099E2A 75%);
-  background-position: right center;
-  background-size: 400% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  transition: color 200ms linear;
-  color: grey;
-}
-
-.links h2:hover {
-  background-position: left center;
-  /* color: #ef9671; */
-  transition: background-position 2000ms ease-out;
+.sticky-skills {
+  border: 2px black solid;
+ 
 }

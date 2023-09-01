@@ -7,7 +7,7 @@ function Projects() {
     <div className="projects" id="projects">
       <h1> Some projects I have worked on</h1>
       {/* <h5>I am always building and working on different projects and ideas as I continue to grow as a developer</h5> */}
-
+{/* 
       <div className="card-flex">
         <Card
           video={
@@ -90,7 +90,7 @@ Open weather Api`}
           skills3={`CSS`}
           link={"https://master--comforting-pika-5fcac7.netlify.app/"}
         />
-      </div>
+      </div> */}
     </div>
   );
 }

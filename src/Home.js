@@ -5,15 +5,14 @@ import Links from "./Links"
 function Home() {
   return (
     <main className="home" id="home">
+      
+
 <section>
         <h1>
-          Hello! My name is <strong>Andrew</strong>
+          Hello, my name is Andrew
         </h1>
         <p>
-          I am a Junior Web developer who aims to make clean functional Web apps
-          with a focus on good UI/UX. Always looking to learn about new
-          technologies, libraries and frameworks to grow as a developer On the
-          hunt for a Junior role.
+        a Junior Web Developer passionate about creating clean, functional web applications with a strong focus on user-friendly design. <br></br> I'm committed to continuous growth and eager to work with new technologies, libraries, and frameworks as I pursue opportunities for a Junior role.
         </p>
 
           <Links />

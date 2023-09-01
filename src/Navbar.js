@@ -35,8 +35,6 @@ import { links } from './data'
           </a>
         ))}
       </div>
-      <p />
-      <p> Your payment selection: {active} </p>
     </>
   );
 }
@@ -57,9 +55,9 @@ const Navbar = () => {
 
 
 
-    <nav className='navbar sticky'>
+    <nav className='navbar'>
       <div className='nav-center'>
-        <div>
+
 
           {links.map((link) => {
             return (
@@ -68,7 +66,7 @@ const Navbar = () => {
               </a>
             )
           })}
-        </div>
+
       </div>
     </nav>
   )

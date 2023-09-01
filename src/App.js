@@ -13,9 +13,11 @@ function App() {
       <Home />
       <About />
       <Projects />
-      {/* <section className='contact' id='contact'>
-        <h1>contact</h1>
-      </section> */}
+
+<footer>
+  {/* <h2>Contact andrewgrant2009@hotmail.com github linkdenw</h2> */}
+</footer>
+
     </main>
 
     </div>
