@@ -5,7 +5,8 @@
     align-items: flex-start;
 }
 h1 {
-  font-size:  var(--fs-primary-heading);
+  font-size: var(--fs-800);
+
 }
 
 p {
@@ -18,7 +19,10 @@ margin-right: 80px;
 }
 
 
-
+.first-name {
+  color: red;
+  font-size: var(--fs-900);
+}
 
 .links {
 
@@ -51,18 +55,3 @@ font-size: var(--fs-700);
   transition: background-position 2000ms ease-out;
 }
 
-
-
-header {
-    background: linear-gradient(0.25turn, #e5625e, #ffffff, #4281a4);
-  height: 180px;
-
-
-  -webkit-mask-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(0, 0, 0, 1)),
-    to(rgba(0, 0, 0, 0))
-  );
-}

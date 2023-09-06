@@ -56,7 +56,6 @@ const Navbar = () => {
 
 
     <nav className='navbar'>
-      <div className='nav-center'>
 
 
           {links.map((link) => {
@@ -67,7 +66,7 @@ const Navbar = () => {
             )
           })}
 
-      </div>
+
     </nav>
   )
 }

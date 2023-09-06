@@ -9,5 +9,40 @@
 
 .sticky-skills {
   border: 2px black solid;
- 
+
+}
+
+
+
+.icons {
+  transform: rotate(23deg);
+  height: 100%;
+  width: 80px;
+  object-fit: cover;
+  /* border-radius: 6px;
+  filter: drop-shadow(1px 2px 3px black); */
+}
+
+.icons:hover {
+  filter: drop-shadow(0 0 2em #9b2136);
+  transform: rotate(0deg);
+}
+.logo.green:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo.vitest:hover {
+  filter: drop-shadow(0 0 2em #86b91a);
+}
+
+
+
+.skill-card {
+  border: 2px red solid;
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start;
+
+  width: 220px;
 }
