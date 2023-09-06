@@ -136,7 +136,7 @@ a {
 }
 
 .navbar {
-  margin-top: 18px;
+  padding: 16px;
 
   position: fixed;
   top: 0;
@@ -150,21 +150,22 @@ a {
 }
 
 .nav-scrolled {
-  margin-top: 18px;
+
 
 width: 100%;
   position: fixed;
   top: 0;
   z-index: 999;
-  background: var(--clr-background);
-  box-shadow: 0 8px 6px -6px black;
+  background: #ffffff;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* box-shadow: 0 8px 6px -6px black; */
 }
 
 header {
   position: relative;
 
   background: linear-gradient(0.25turn, #e5625e, #ffffff, #4281a4);
-  height: 160px;
+  height: 180px;
 
   -webkit-mask-image: -webkit-gradient(
     linear,

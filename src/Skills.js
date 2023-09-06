@@ -1,7 +1,7 @@
 
 import JavaScript from './icons/javaScriptyellow.svg';
 import RubyOnRails from './icons/railsonrails.svg';
-import Css from './icons/CSS.svg';
+import Css from './icons/css2.svg';
 import react from './icons/react.svg';
 import html from './icons/html.svg';
 import figma from './icons/figma.svg'
