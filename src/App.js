@@ -10,14 +10,16 @@ document.addEventListener("DOMContentLoaded", function() {
 const navbar = document.querySelector(".navbar");
 const header = document.querySelector("header");
 
-const headerOptions = {};
+const headerOptions = {
+  rootMargin: "-100px 0px 0px 0px",
+};
 
 const headerObsever = new IntersectionObserver(function(
   entries,
   headerObsever
 ) {
 entries.forEach(entry => {
-  // console.log(entry.isIntersecting);
+//  console.log(entry.isIntersecting);
 if(!entry.isIntersecting) {
   navbar.classList.add("nav-scrolled");
   } else {

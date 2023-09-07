@@ -11,7 +11,7 @@ function About() {
   };
 
   return (
-    <section className="about" id="about">
+    <div className="about" id="about">
       <main>
         <h1>Background</h1>
 
@@ -49,7 +49,7 @@ function About() {
         <h3>Skills and tools </h3>
         <Skills />
       </aside>
-    </section>
+    </div>
   );
 }
 

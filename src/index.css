@@ -137,27 +137,29 @@ a {
 
 .navbar {
   padding: 16px;
-
   position: fixed;
   top: 0;
   z-index: 5;
 }
+
 .navbar a {
-  margin-left: 80px;
+  margin-left: 60px;
   font-size: clamp(1.4rem, 5vw, 0.85rem);
   text-transform: uppercase;
   color: var(--clr-text);
 }
 
+.navbar a:hover {
+text-decoration: underline;
+}
+
 .nav-scrolled {
-
-
-width: 100%;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 999;
   background: #ffffff;
- box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   /* box-shadow: 0 8px 6px -6px black; */
 }
 
