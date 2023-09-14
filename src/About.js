@@ -45,10 +45,13 @@ function About() {
 
         {/* </ReadMore> */}
       </main>
-      <aside className="sticky-skills">
+      {/* <aside className="sticky-skills">
         <h3>Skills and tools </h3>
-        <Skills />
-      </aside>
+      </aside> */}
+
+<span className="mac-block">
+<Skills />
+</span>
     </div>
   );
 }

@@ -6,6 +6,7 @@
 }
 h1 {
   font-size: var(--fs-800);
+  perspective: 350px;
 
 }
 
@@ -47,6 +48,10 @@ color: transparent; */
   text-fill-color: transparent;
   transition: color 200ms linear;
 font-size: var(--fs-700);
+
+perspective: 350px;
+
+
 }
 
 .links h2:hover {
@@ -54,4 +59,3 @@ font-size: var(--fs-700);
   /* color: #ef9671; */
   transition: background-position 2000ms ease-out;
 }
-

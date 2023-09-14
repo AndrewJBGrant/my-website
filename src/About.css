@@ -46,3 +46,35 @@
 
   width: 220px;
 }
+
+
+.skill-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+   height: 4rem;
+   align-items: flex-end;
+
+     gap: 1rem;
+border-radius: 1rem;
+ padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.75rem;
+
+  background: black;
+}
+
+
+.skill-box {
+aspect-ratio: 1 / 1;
+width: 2.5rem;
+border-radius: 50%;
+background-color: yellow;
+
+
+}
+
+
+.mac-block {
+  border: solid red 2px;
+}
